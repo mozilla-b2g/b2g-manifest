@@ -5,8 +5,6 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
-  <remote name="andreasgal"
-          fetch="git://github.com/andreasgal/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -16,7 +14,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="andreasgal" revision="master" />
+  <project path="gaia" name="gaia" remote="b2g" revision="master" />
   <project path="gecko" name="mozilla-central" remote="b2g" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
