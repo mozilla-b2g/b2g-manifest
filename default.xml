@@ -19,6 +19,7 @@
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
+  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -86,7 +87,6 @@
   <!-- Emulator specific things -->
   <project path="development" name="platform/development" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="external/qemu" name="platform/external/qemu" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
