@@ -7,7 +7,7 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="caf"
           fetch="git://codeaurora.org/" />
-  <default revision="ics"
+  <default revision="ics_chocolate"
            remote="caf"
            sync-j="4" />
 
@@ -71,6 +71,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -87,17 +88,16 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Otoro specific things -->
-  <project path="device/qcom/common" name="device/qcom/common" remote="caf" revision="ics" />
-  <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" remote="caf" revision="ics" />
+  <project path="device/qcom/common" name="device/qcom/common" />
+  <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" />
   <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="master" />
   <project path="external/wpa_supplicant_8_lib" name="wpa_supplicant_8_lib" remote="b2g" revision="master" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="caf" revision="ics" />
   <project path="kernel" name="kernel/msm" remote="caf" revision="msm-3.0" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="caf" revision="ics" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" revision="master" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="caf" revision="ics" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="caf" revision="ics" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="caf" revision="ics" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" remote="caf" revision="master" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
 
 </manifest>
