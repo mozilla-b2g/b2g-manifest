@@ -7,6 +7,8 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="caf"
           fetch="git://codeaurora.org/" />
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
   <default revision="ics_chocolate"
            remote="caf"
            sync-j="4" />
@@ -41,7 +43,7 @@
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="master" />
+  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="master" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -70,7 +72,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="linaro" revision="master" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="frameworks/base" name="platform/frameworks/base" />
