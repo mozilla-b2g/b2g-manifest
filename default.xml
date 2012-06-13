@@ -3,10 +3,12 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <default revision="master"
-           remote="aosp"
+           remote="linaro"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
