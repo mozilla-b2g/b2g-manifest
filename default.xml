@@ -9,6 +9,8 @@
           fetch="git://codeaurora.org/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
+  <remote  name="allstars_ril"
+           fetch="git://github.com/allstarschh/platform_hardware_ril.git" />
   <default revision="ics_chocolate"
            remote="caf"
            sync-j="4" />
@@ -101,5 +103,5 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
-  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5"/>
+  <project path="hardware/ril" name="platform/hardware/ril" remote="allstars_ril" revision="otoro_ril"/>
 </manifest>
