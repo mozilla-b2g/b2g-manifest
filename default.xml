@@ -98,6 +98,6 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
-  <project path="sdk" name="platform/sdk" revision="master" />
+  <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
 </manifest>
