@@ -59,6 +59,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/mksh" name="platform/external/mksh" />
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
