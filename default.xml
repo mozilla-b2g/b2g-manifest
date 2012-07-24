@@ -7,6 +7,8 @@
            fetch="git://android.git.linaro.org/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
+  <remote name="mozilla"
+	  fetch="git://github.com/mozilla/" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="linaro"
            sync-j="4" />
@@ -17,7 +19,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="master" />
-  <project path="gecko" name="mozilla-central" remote="b2g" revision="master" />
+  <project path="gecko" name="mozilla-central" remote="mozilla" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
