@@ -63,6 +63,7 @@
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
   <project path="external/skia" name="platform/external/skia" revision="8c1c7cfacd82a174c65fcbf839d7037e3692aee8" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
