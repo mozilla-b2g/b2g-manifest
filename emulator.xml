@@ -24,6 +24,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
