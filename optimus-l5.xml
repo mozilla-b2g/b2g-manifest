@@ -21,7 +21,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="nightly" />
-  <project path="gecko" name="releases-mozilla-central" remote="mozilla" revision="master" />
+  <project path="gecko" name="releases-mozilla-aurora" remote="mozilla" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
