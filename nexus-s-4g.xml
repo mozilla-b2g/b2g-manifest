@@ -95,9 +95,11 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Nexus S 4G specific things -->
+  <!-- Nexus S 4G and Epic 4G specific things -->
   <project path="device/samsung/crespo" name="android-device-crespo" remote="b2g" revision="master" />
   <project path="device/samsung/crespo4g" name="android-device-crespo4g" remote="b2g" revision="ics-b2g" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="device/samsung/epicmtd" name="android_device_samsung_epicmtd" remote="xboxfanj" revision="ics" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="bbelos" revision="crespo-modem" />
 
 </manifest>
