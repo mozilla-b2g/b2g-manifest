@@ -11,7 +11,7 @@
           fetch="git://codeaurora.org/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
-  <default revision="ics_chocolate_rb4.2"
+  <default revision="ics_strawberry_rb5.1"
            remote="caf"
            sync-j="4" />
 
@@ -111,5 +111,5 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
-  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5"/>
+  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
 </manifest>
