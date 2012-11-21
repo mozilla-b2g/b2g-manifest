@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="d710"
-           fetch="https://github.com/EpicB2G/" />
+           fetch="git://github.com/EpicB2G/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
