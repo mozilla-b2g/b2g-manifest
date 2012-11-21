@@ -9,6 +9,8 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
+  <remote name="mozillaorg"
+	  fetch="http://git.mozilla.org/" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="linaro"
            sync-j="4" />
@@ -19,7 +21,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="nightly" />
-  <project path="gecko" name="releases-mozilla-aurora" remote="mozilla" revision="master" />
+  <project path="gecko" name="releases/gecko" remote="mozillaorg" revision="gecko-18" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>

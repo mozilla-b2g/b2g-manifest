@@ -7,6 +7,8 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
+  <remote name="mozillaorg"
+	  fetch="http://git.mozilla.org/" />
   <remote name="caf"
           fetch="git://codeaurora.org/" />
   <remote  name="linaro"
@@ -21,7 +23,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="nightly" />
-  <project path="gecko" name="releases-mozilla-aurora" remote="mozilla" revision="master" />
+  <project path="gecko" name="releases/gecko" remote="mozillaorg" revision="gecko-18" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
