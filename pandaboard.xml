@@ -9,7 +9,7 @@
            fetch="git://android.git.linaro.org/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
-  <remote name="mozillaorg" 
+  <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="linaro"
@@ -28,7 +28,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="platform/bionic" revision="linaro/ics-plus-aosp" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
