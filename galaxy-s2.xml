@@ -99,5 +99,6 @@
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
+  <project path="frameworks/base/media/libmedia" name="android-frameworks-base-libmedia-samsung" revision="master" />
 
 </manifest>
