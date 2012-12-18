@@ -96,7 +96,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Sprint GS2 things -->
-  <project path="device/samsung/galaxys2" name="android_device_samsung_d710" remote="d710" revision="ics" />
+  <project path="device/samsung/d710" name="android_device_samsung_d710" remote="d710" revision="ics" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
