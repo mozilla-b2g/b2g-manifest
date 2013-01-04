@@ -100,8 +100,8 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
   
-# the gs2 common most likely wont be used so consider removing it soon
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="d710"
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="d710" revision="ics"
+  <!-- the gs2 common most likely wont be used so consider removing it soon -->
+  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="d710" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="d710" revision="ics" />
 
 </manifest>
