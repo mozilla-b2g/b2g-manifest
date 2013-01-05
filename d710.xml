@@ -4,13 +4,17 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="d710"
-           fetch="git://github.com/EpicB2G/" />
+           fetch="http://github.com/EpicB2G/" />
+  <remote  name="cm"
+           fetch="http://github.com/Cyanogenmod/" />
   <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
+           fetch="http://github.com/mozilla-b2g/" />
+  <remote name="cot"
+           fetch="http://github.com/ProjectOpenCannibal/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
   <remote name="mozilla"
-    fetch="git://github.com/mozilla/" />
+           fetch="http://github.com/mozilla/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
@@ -29,7 +33,9 @@
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="bootable/recovery" remote="cot" revision="jellybean" />
+  <project path="bootable/recovery/gui" name="bootable/recovery/gui" remote="cot" revision="jellybean" />
+  <project path="bootable/recovery/res" name="bootable/recovery/res" remote="cot" revision="master" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -99,6 +105,7 @@
   <project path="device/samsung/d710" name="android_device_samsung_d710" remote="d710" revision="ics" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="ics" />
   
   <!-- the gs2 common most likely wont be used so consider removing it soon -->
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="d710" />
