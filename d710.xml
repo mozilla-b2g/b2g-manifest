@@ -106,6 +106,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="ics" />
+  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="d710" revision="ics" />
   
   <!-- the gs2 common most likely wont be used so consider removing it soon -->
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="d710" />
