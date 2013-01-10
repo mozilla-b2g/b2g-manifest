@@ -49,8 +49,6 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="aosp" revision="master" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="aosp" revision="master" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
