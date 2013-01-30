@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="https://git.mozilla.org/b2g" />
+  <remote name="b2ggithub"
+           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="caf"
@@ -36,6 +38,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2ggithub" revision="master" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -44,6 +47,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2ggithub" revision="master" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2ggithub" revision="master" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
