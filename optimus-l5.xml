@@ -10,15 +10,15 @@
   <default revision="ics_chocolate" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="43434d6cdbf702e6197e0791f19406860284edf6" upstream="v1-train">
+  <project path="build" name="platform_build" remote="b2g" revision="43434d6cdbf702e6197e0791f19406860284edf6" upstream="v1.0.1">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1-train"/>
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1-train"/>
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="gecko-18"/>
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="f46dac73e6256c25763764d5fa26ac1bdf1417ba" upstream="v1-train"/>
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1-train"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1-train"/>
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1.0.1"/>
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.0.1"/>
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.0.1"/>
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="f46dac73e6256c25763764d5fa26ac1bdf1417ba" upstream="v1.0.1"/>
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1.0.1"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1.0.1"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
@@ -56,11 +56,11 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="c2c5125e0d86cff9bc8176232509556352245de1"/>
   <project path="external/llvm" name="platform/external/llvm" revision="bff5923831940309f7d8ddbff5826ca6ed2dc050"/>
   <project path="external/mksh" name="platform/external/mksh" revision="ec646e8f5e7dac9a77d1de549c6ed92c04d0cd4b"/>
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1-train"/>
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1.0.1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="e1d98e84677124851249b153dca389b8f0ed46ab"/>
   <project path="external/protobuf" name="platform/external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1-train"/>
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1.0.1"/>
   <project path="external/skia" name="platform/external/skia" revision="82446add4f163f183090cbd4801de62e83837565"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="7c967779dfc61ac1f346e972de91d4bfce7dccbb"/>
   <project path="external/speex" name="platform/external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32"/>
@@ -70,7 +70,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
   <project path="external/tinyalsa" name="platform/external/tinyalsa" revision="06cc244ee512c1352215e543615738bc8ac82814"/>
   <project path="external/tremolo" name="platform/external/tremolo" revision="25bd78d2392dbdc879ae53382cde9d019f79cf6f"/>
-  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="9464623d92eb8668544916dc5a8f4f6337d0bc08" upstream="v1-train"/>
+  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="9464623d92eb8668544916dc5a8f4f6337d0bc08" upstream="v1.0.1"/>
   <project path="external/webp" name="platform/external/webp" revision="88fe2b83c4b9232cd08729556fd0485d6a6a92cd"/>
   <project path="external/webrtc" name="platform/external/webrtc" revision="137024dc8a2e9251a471e20518a9c3ae06f81f23"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497"/>
@@ -95,10 +95,10 @@
   <!-- M4 specific things -->
   <project path="device/qcom/common" name="device/qcom/common" revision="f949ec96eab89361aa4d70c2cec9edcf9980cad3"/>
   <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" revision="51c82b9a166f059c5fb68815e690e2debcec315e"/>
-  <project path="device/lge/m4" name="android-device-m4" remote="b2g" revision="90b62c2a4ebfd3ee8b9738da96f5e38ac97009a0" upstream="v1-train"/>
-  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="0a01247e4b0880f93424b27251cd3a1f6b19dbb2" upstream="v1-train"/>
+  <project path="device/lge/m4" name="android-device-m4" remote="b2g" revision="90b62c2a4ebfd3ee8b9738da96f5e38ac97009a0" upstream="v1.0.1"/>
+  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="0a01247e4b0880f93424b27251cd3a1f6b19dbb2" upstream="v1.0.1"/>
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="a723af084e0555e68dd60d84eb872e22e6e87e69"/>
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" upstream="v1-train" revision="e8de07329ce2f541a6bb21c5d72684aa9d9495ec"/>
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" upstream="v1.0.1" revision="e8de07329ce2f541a6bb21c5d72684aa9d9495ec"/>
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="46a5e287fed4dae8714c0a31be161466ce23d629"/>
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="aaffee42d50a77ddee9dfa041d3d328c47482285"/>
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="736877ca3e6d93b70e536a44d9bc759bd6d8ed82"/>

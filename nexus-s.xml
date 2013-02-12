@@ -9,15 +9,15 @@
   <default revision="refs/tags/android-4.0.4_r1.2" remote="linaro" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="43434d6cdbf702e6197e0791f19406860284edf6" upstream="v1-train">
+  <project path="build" name="platform_build" remote="b2g" revision="43434d6cdbf702e6197e0791f19406860284edf6" upstream="v1.0.1">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1-train"/>
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1-train"/>
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="gecko-18"/>
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="f46dac73e6256c25763764d5fa26ac1bdf1417ba" upstream="v1-train"/>
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1-train"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1-train"/>
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1.0.1"/>
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.0.1"/>
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.0.1"/>
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="f46dac73e6256c25763764d5fa26ac1bdf1417ba" upstream="v1.0.1"/>
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1.0.1"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1.0.1"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
@@ -53,11 +53,11 @@
   <project path="external/libpng" name="platform/external/libpng" revision="84d92c718ab9f48faec0f640747c4b6f7a995607"/>
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7"/>
   <project path="external/mksh" name="platform/external/mksh" revision="5155f1c7438ef540d7b25eb70aa1639579795b07"/>
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1-train"/>
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1.0.1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="ce96fb211b9a44bbd7fb5ef7ed0e6c1244045c2e"/>
   <project path="external/protobuf" name="platform/external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1-train"/>
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1.0.1"/>
   <project path="external/skia" name="platform/external/skia" revision="5c67a309e16bffe7013defda8f1217b3ce2420b4"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="5f9600971859fe072f31b38a51c38157f5f9b381"/>
   <project path="external/speex" name="platform/external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32"/>
@@ -90,7 +90,7 @@
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
 
   <!-- Nexus S specific things -->
-  <project path="device/samsung/crespo" name="android-device-crespo" remote="b2g" revision="5c539db3b799c2faa8966340ed2fe9ea8c52ec04" upstream="v1-train"/>
+  <project path="device/samsung/crespo" name="android-device-crespo" remote="b2g" revision="5c539db3b799c2faa8966340ed2fe9ea8c52ec04" upstream="v1.0.1"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="07ef2f509a362cc6a5825d0d19143dc4bd2474e0"/>
 
 </manifest>

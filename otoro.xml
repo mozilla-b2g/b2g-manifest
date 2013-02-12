@@ -10,16 +10,16 @@
   <default revision="ics_chocolate_rb4.2" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="43434d6cdbf702e6197e0791f19406860284edf6" upstream="v1-train">
+  <project path="build" name="platform_build" remote="b2g" revision="43434d6cdbf702e6197e0791f19406860284edf6" upstream="v1.0.1">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1-train"/>
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1-train"/>
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="gecko-18"/>
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="f46dac73e6256c25763764d5fa26ac1bdf1417ba" upstream="v1-train"/>
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1-train"/>
-  <project path="librecovery" name="librecovery" remote="b2g" revision="601fc18b28c9d7cf6954b281ddd3b705c74a9215" upstream="v1-train"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1-train"/>
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1.0.1"/>
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.0.1"/>
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.0.1"/>
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="f46dac73e6256c25763764d5fa26ac1bdf1417ba" upstream="v1.0.1"/>
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1.0.1"/>
+  <project path="librecovery" name="librecovery" remote="b2g" revision="601fc18b28c9d7cf6954b281ddd3b705c74a9215" upstream="v1.0.1"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" upstream="v1.0.1"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
@@ -58,11 +58,11 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7"/>
   <project path="external/llvm" name="platform/external/llvm" revision="bff5923831940309f7d8ddbff5826ca6ed2dc050"/>
   <project path="external/mksh" name="platform/external/mksh" revision="ec646e8f5e7dac9a77d1de549c6ed92c04d0cd4b"/>
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1-train"/>
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354" upstream="v1.0.1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="27d333cce9a31c806b4bfa042925f045c727aecd"/>
   <project path="external/protobuf" name="platform/external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1-train"/>
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="e6403c71e9eca8cb943739d5a0a192deac60fc51" upstream="v1.0.1"/>
   <project path="external/skia" name="platform/external/skia" revision="7d90c85f2c0e3b747f7c7eff8bc9253b0063b439"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="7c967779dfc61ac1f346e972de91d4bfce7dccbb"/>
   <project path="external/speex" name="platform/external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32"/>
@@ -72,7 +72,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
   <project path="external/tinyalsa" name="platform/external/tinyalsa" revision="06cc244ee512c1352215e543615738bc8ac82814"/>
   <project path="external/tremolo" name="platform/external/tremolo" revision="25bd78d2392dbdc879ae53382cde9d019f79cf6f"/>
-  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="9464623d92eb8668544916dc5a8f4f6337d0bc08" upstream="v1-train"/>
+  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="9464623d92eb8668544916dc5a8f4f6337d0bc08" upstream="v1.0.1"/>
   <project path="external/webp" name="platform/external/webp" revision="88fe2b83c4b9232cd08729556fd0485d6a6a92cd"/>
   <project path="external/webrtc" name="platform/external/webrtc" revision="137024dc8a2e9251a471e20518a9c3ae06f81f23"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497"/>
@@ -97,11 +97,11 @@
   <!-- Otoro/Unagi specific things -->
   <project path="device/qcom/common" name="device/qcom/common" revision="b9cdab8e1e1a215a8c65b8d5816f666bec7be205"/>
   <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" revision="d920a502ba17cf4d716f8b1a615f07e796b0501a"/>
-  <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="7662275433fc0b1d8b035f03185b24b7ca965ab4" upstream="v1-train"/>
-  <project path="device/qcom/unagi" name="android-device-unagi" remote="b2g" revision="6c014552d1b26bee611d9a9b23bd4cd014e392ee" upstream="v1-train"/>
-  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="0a01247e4b0880f93424b27251cd3a1f6b19dbb2" upstream="v1-train"/>
+  <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="7662275433fc0b1d8b035f03185b24b7ca965ab4" upstream="v1.0.1"/>
+  <project path="device/qcom/unagi" name="android-device-unagi" remote="b2g" revision="6c014552d1b26bee611d9a9b23bd4cd014e392ee" upstream="v1.0.1"/>
+  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="0a01247e4b0880f93424b27251cd3a1f6b19dbb2" upstream="v1.0.1"/>
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="1acf77a75e30f3fc8b1eed2057c97adf1cb1633f"/>
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" upstream="v1-train" revision="6405d30f2fac7d8a1f2cb17b99fb7dd0a8bcfdac"/>
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" upstream="v1.0.1" revision="6405d30f2fac7d8a1f2cb17b99fb7dd0a8bcfdac"/>
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="552c3ddb7174a01f3508782d40c4d8c845ab441a"/>
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="23d5707b320d7fc69f8ba3b7d84d78a1c5681708"/>
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="8892d46805c5639b55dd07547745c5180da861e7"/>
