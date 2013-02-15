@@ -100,7 +100,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator specific things -->
-  <project path="development" name="platform/development" revision="435a7da6d02083ba6583e1654db351991cf79578" />
+  <project path="development" name="android-development" remote="b2ggithub" revision="5a439240bc3d4143981b9e690c41ccafe9f67537" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="master" />
