@@ -3,8 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <remote  name="linaro"
-           fetch="http://android.git.linaro.org/git-ro/" />
+  <remote name="caf"
+          fetch="git://codeaurora.org/" />
   <remote name="b2g"
            fetch="https://git.mozilla.org/b2g" />
   <remote name="b2ggithub"
@@ -14,7 +14,7 @@
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
   <default revision="refs/tags/android-4.0.4_r2.1"
-           remote="linaro"
+           remote="caf"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
@@ -52,7 +52,7 @@
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" revision="15321e16a085b9b5c85cf029aee86bf57b2e65c1" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/gtest" name="platform/external/gtest" revision="master" />
+  <project path="external/gtest" name="platform/external/gtest" revision="aosp-new/master" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -91,7 +91,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="af9565aa8be0136463ec549d9d3abdd906d2c390" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
-  <project path="prebuilt" name="platform/prebuilt" revision="master" />
+  <project path="prebuilt" name="platform/prebuilt" revision="aosp-new/master" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" revision="91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64" />
   <project path="system/extras" name="platform/system/extras" />
@@ -102,10 +102,10 @@
   <!-- Emulator specific things -->
   <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="master" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="aosp-new/master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="aosp-new/master" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="aosp-new/master" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="aosp-new/master" />
   <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
 </manifest>
