@@ -10,7 +10,7 @@
   <remote name="caf"
           fetch="git://codeaurora.org/" />
   <remote  name="linaro"
-           fetch="git://android.git.linaro.org/" />
+           fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozillaorg"
            fetch="https://git.mozilla.org/releases" />
   <default revision="ics_chocolate"
