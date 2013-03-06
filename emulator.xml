@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="linaro"
-           fetch="git://android.git.linaro.org/" />
+           fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="b2g"
            fetch="https://git.mozilla.org/b2g" />
   <remote name="b2ggithub"
