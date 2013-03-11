@@ -97,7 +97,7 @@
 
   <!-- Keon specific things -->
   <project path="device/qcom/msm7627a" name="device_qcom_msm7627a" remote="gp-b2g" revision="master" />
-  <project path="device/geeksphone/keon" name="device-gp-keon" remote="gp-b2g" revision="master" />
+  <project path="device/geeksphone/keon" name="device-gp-keon" remote="b2g" revision="master" />
   <project path="kernel" name="gp-keon-kernel" remote="gp-b2g" revision="master" />
   <project path="external/compat-wireless" name="external_compat-wireless" remote="gp-b2g" revision="master" />
   <project path="frameworks/base" name="frameworks_base" remote="gp-b2g" revision="master" />
