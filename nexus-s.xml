@@ -6,7 +6,7 @@
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
-  <default revision="refs/tags/android-4.0.4_r1.2" remote="linaro" sync-j="4"/>
+  <default revision="refs/tags/android-4.0.4_r1.2" remote="aosp" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="b2g" revision="193e0e263fd16343188f43e6ce49e6e97b30af1b" upstream="v1-train">
