@@ -13,6 +13,7 @@
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
+  <remote name="github" fetch="git://github.com/"/>
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="caf"
            sync-j="4" />
@@ -29,6 +30,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="external/apitrace" name="apitrace/apitrace.git" remote="github" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
