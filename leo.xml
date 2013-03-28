@@ -22,7 +22,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
-  <project path="bionic" name="platform/bionic" revision="998c0520494046c75bb2f56b4b4aed94fbda159e"/>
+  <project path="bionic" name="platform/bionic" revision="d2eb6c7b6e1bc7643c17df2d9d9bcb1704d0b9ab"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="575fdbf046e966a5915b1f1e800e5d6ad0ea14c0"/>
   <project path="development" name="platform/development" revision="b1025ec93beeb480caaf3049d171283c3846461d"/>
   <project path="device/common" name="device/common" revision="0dcc1e03659db33b77392529466f9eb685cdd3c7"/>
@@ -104,3 +104,4 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="669815aaca47afee95b4a95908dc87bff267a815"/>
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="0365db6af2d4df11184a421f97c5043db47a0c0d"/>
 </manifest>
+
