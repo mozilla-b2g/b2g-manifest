@@ -92,7 +92,7 @@
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
 
   <!-- Pandaboard specific things -->
-  <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="0e9a89187970d6fa99930c8d9cb438b935c2337c" upstream="v1-train"/>
+  <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="eec93d3e9eb7765f63415e2ad42003a00b5996b4" upstream="v1-train"/>
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="8be8e9a68c96b6cf43c08a58e7ecd7708737c599"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69"/>
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0"/>
