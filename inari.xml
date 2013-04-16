@@ -109,3 +109,4 @@
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="ab17ac9a074b4bb69986a8436336bdfbbaf9cd39"/>
   <project path="hardware/ril" name="platform/hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5"/>
 </manifest>
+
