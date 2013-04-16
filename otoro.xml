@@ -18,7 +18,7 @@
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="ded7bc971be7f0543db3e7dcf8e2ff134739aef2" upstream="v1-train"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1-train"/>
   <project path="librecovery" name="librecovery" remote="b2g" revision="601fc18b28c9d7cf6954b281ddd3b705c74a9215" upstream="v1-train"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="03576daee5298aedfd4a36b1687eeca726f1ed24" upstream="v1-train"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="1333283efce26b17a815bc4c98da330edcda9f66" upstream="v1-train"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
