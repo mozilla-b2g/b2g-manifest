@@ -36,14 +36,17 @@
   <project name="platform/external/dbus" path="external/dbus" />
   <project name="platform/external/dhcpcd" path="external/dhcpcd" />
   <project name="platform/external/dnsmasq" path="external/dnsmasq" />
+  <project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
   <project name="platform/external/expat" path="external/expat" />
   <project name="platform/external/fdlibm" path="external/fdlibm" />
   <project name="platform/external/flac" path="external/flac" />
   <project name="platform/external/freetype" path="external/freetype" />
+  <project name="platform/external/gcc-demangle" path="external/gcc-demangle" />
   <project name="platform/external/giflib" path="external/giflib" />
   <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="344e5f3db17615cc853073a02968a603efd39109"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" />
   <project name="platform/external/icu4c" path="external/icu4c" />
+  <project name="platform/external/iproute2" path="external/iproute2" />
   <project name="platform/external/iptables" path="external/iptables" />
   <project name="platform/external/jhead" path="external/jhead" />
   <project name="platform/external/jpeg" path="external/jpeg" />
@@ -54,6 +57,7 @@
   <project name="platform/external/libphonenumber" path="external/libphonenumber" />
   <project name="platform/external/libpng" path="external/libpng" />
   <project name="platform/external/libvpx" path="external/libvpx" />
+  <project name="platform/external/llvm" path="external/llvm" />
   <project name="platform/external/mksh" path="external/mksh" />
   <project name="platform/external/openssl" path="external/openssl" />
   <project name="platform/external/protobuf" path="external/protobuf" />
@@ -70,7 +74,6 @@
   <project name="platform/external/webp" path="external/webp" />
   <project name="platform/external/webrtc" path="external/webrtc" />
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" />
-  <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" />
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <project name="platform/external/zlib" path="external/zlib" />
   <project name="platform/external/yaffs2" path="external/yaffs2" />
