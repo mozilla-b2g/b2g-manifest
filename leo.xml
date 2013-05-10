@@ -11,7 +11,7 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
-  <remote name="github" fetch="git://github.com/"/>
+  <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="b2g/ics_strawberry"
            remote="caf"
            sync-j="4" />
@@ -27,6 +27,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="external/apitrace" name="apitrace.git" remote="apitrace" revision="master" />
   <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->

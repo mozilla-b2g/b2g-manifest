@@ -13,7 +13,7 @@
            fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozillaorg"
            fetch="https://git.mozilla.org/releases" />
-  <remote name="github" fetch="git://github.com/"/>
+  <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="ics_chocolate"
            remote="caf"
            sync-j="4" />
@@ -28,6 +28,7 @@
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="external/apitrace" name="apitrace.git" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
