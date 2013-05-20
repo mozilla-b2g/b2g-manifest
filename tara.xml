@@ -22,8 +22,6 @@
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
-  <project path="external/vex" name="vex" remote="b2g" revision="fxos" />
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" />
