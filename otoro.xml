@@ -28,6 +28,8 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
+  <project path="external/vex" name="vex" remote="b2g" revision="fxos" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
