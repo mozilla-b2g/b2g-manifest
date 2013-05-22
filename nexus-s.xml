@@ -26,6 +26,8 @@
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
+  <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
