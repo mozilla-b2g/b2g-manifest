@@ -13,6 +13,7 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
            fetch="https://git.mozilla.org/releases" />
+  <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="ics_chocolate_rb4.2"
            remote="caf"
            sync-j="4" />
@@ -30,6 +31,7 @@
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
   <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
