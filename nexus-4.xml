@@ -1,8 +1,6 @@
 <?xml version="1.0" ?><manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
+  <include name="base_remotes.xml" />
 
   <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
 

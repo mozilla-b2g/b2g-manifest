@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
+  <remote name="caf" fetch="git://codeaurora.org/" />
+  <remote name="gp-b2g" fetch="git://github.com/gp-b2g/" />
+  <remote name="linaro" fetch="git://android.git.linaro.org/" />
+  <remote name="mozilla" fetch="git://github.com/mozilla/" />
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <remote name="sprd" fetch="http://sprdsource.spreadtrum.com:8085/b2g/" />
+
+</manifest>

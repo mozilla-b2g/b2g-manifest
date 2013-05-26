@@ -1,12 +1,8 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/gp-b2g/" name="gp-b2g"/>
-  <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="git://android.git.linaro.org/" name="linaro"/>
-  <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android" />
-  <remote name="github" fetch="git://github.com/"/>
+
+  <include name="base_remotes.xml" />
+
   <default remote="QRD" revision="ics_master_qrd_101" sync-j="9"/>
 
   <!-- Gonk specific things and forks -->
@@ -14,8 +10,8 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
-  <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="master" />
-  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master" />
+  <project name="gaia.git" path="gaia" remote="mozillaorg" revision="master" />
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
