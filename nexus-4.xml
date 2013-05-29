@@ -3,7 +3,6 @@
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="git://github.com/apitrace/" name="apitrace"/>
 
   <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
 
@@ -17,7 +16,6 @@
   <project name="gaia" path="gaia" remote="b2g" revision="master"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1"/>
