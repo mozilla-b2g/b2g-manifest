@@ -106,11 +106,11 @@
 
   <!-- Emulator specific things -->
   <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2ggithub" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="aosp-new/master" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="ec4a882d411d0d4ceadc5912ab4ce6fd4df23ab7" />
+  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2ggithub" revision="master" />
   <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
 </manifest>
