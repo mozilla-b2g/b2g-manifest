@@ -5,9 +5,9 @@
            fetch="https://android.googlesource.com/" />
   <remote name="caf"
           fetch="git://codeaurora.org/" />
-  <remote name="b2g"
+  <remote name="b2gmozilla"
            fetch="https://git.mozilla.org/b2g" />
-  <remote name="b2ggithub"
+  <remote name="b2g"
            fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
@@ -40,7 +40,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2ggithub" revision="master" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -49,8 +49,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2ggithub" revision="master" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2ggithub" revision="master" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
@@ -106,11 +106,11 @@
 
   <!-- Emulator specific things -->
   <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2ggithub" revision="master" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="aosp-new/master" />
-  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2ggithub" revision="master" />
+  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="master" />
   <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
 </manifest>
