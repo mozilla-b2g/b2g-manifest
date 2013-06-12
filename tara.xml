@@ -12,8 +12,8 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master" />
-  <project name="gaia" path="gaia" remote="b2g" revision="master" />
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
+  <project name="gaia.git" path="gaia" remote="b2g" revision="master" />
   <project name="platform_build" path="build" remote="b2g" revision="master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
