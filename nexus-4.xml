@@ -112,7 +112,7 @@
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
-  <project name="platform/system/core" path="system/core"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.2.2_r1"/>
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
