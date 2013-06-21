@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-jb.xml" />
+
+  <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
+
+  <!-- Emulator specific things -->
+  <project name="device/generic/armv7-a" path="device/generic/armv7-a"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device/generic/goldfish" path="device/generic/goldfish"/>
+  <project name="platform/external/qemu" path="external/qemu"/>
+  <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6"/>
+  <project name="platform/development" path="development"/>
+  <project name="platform/sdk" path="sdk"/>
+
+</manifest>
