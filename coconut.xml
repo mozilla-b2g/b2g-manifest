@@ -6,7 +6,6 @@
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases/"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <default remote="QRD" revision="ics_master_qrd_101" sync-j="9"/>
  
   <!-- Gonk specific things and forks -->
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
