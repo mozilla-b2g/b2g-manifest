@@ -9,6 +9,7 @@
   <remote name="sola" fetch="https://github.com/sola-dolphin1/"/>
   <remote name="neuralassembly" fetch="https://github.com/neuralassembly/"/>
   <remote name="cm" fetch="https://github.com/CyanogenMod/"/>
+  <remote name="semc" fetch="https://github.com/semcb2g/"/>
   <default revision="refs/tags/android-4.0.4_r1.2" remote="linaro" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
@@ -97,10 +98,9 @@
 
 
   <!-- Xperia Arc things -->
-  <project path="device/semc/anzu" name="android_device_semc_anzu" remote="neuralassembly" revision="ics"/>
-  <project path="device/semc/urushi" name="android_device_semc_urushi" remote="neuralassembly" revision="ics"/>
-  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="neuralassembly" revision="ics"/>
-  <project path="device/semc/mogami-common" name="android_device_semc_mogami-common" remote="neuralassembly" revision="ics"/>
+  <project path="device/semc/anzu" name="android_device_semc_anzu" remote="semc" revision="ics"/>
+  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="semc" revision="ics"/>
+  <project path="device/semc/mogami-common" name="android_device_semc_mogami-common" remote="semc" revision="ics"/>
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="07ef2f509a362cc6a5825d0d19143dc4bd2474e0"/>
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="e2d7caf0363dec74d77f7e7adbe5b4cce0c6524c" upstream="v1-train"/>
