@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+  <remote name="aosp"
+		fetch="https://android.googlesource.com/"/>
+	<remote name="github" 
+		fetch="git://github.com/" /> #review="review.cyanogenmod.org"
+	<remote name="linaro" 
+		fetch="http://android.git.linaro.org/git-ro/"/>
+ 	<remote name="mozilla"
+		fetch="git://github.com/mozilla/" />
+	<remote name="mozillaorg"
+		fetch="https://git.mozilla.org/releases" />
+	<remote name="b2g"
+		fetch="git://github.com/mozilla-b2g/" />
+	<remote name="Zmeya" fetch="git://github.com/Zmeya/StarV1277/" remote="master"/>
+	<default revision="refs/heads/ics"
+		remote="github"
+		sync-c="true"		
+		sync-j="4"/>
+	<!-- Gonk specific things and forks -->
+	<project path="build" name="platform_build" remote="b2g" revision="master">
+		<copyfile src="core/root.mk" dest="Makefile" />
+	</project>
+	<project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
+	<project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
+	<project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
+	<project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
+	<project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
+	<project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+	<project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
+	<project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" 	revision="master" />
+	<project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
+	<project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
+	<!--CyanogenMod-->
+	<project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="bionic" name="CyanogenMod/android_bionic" />
+	<project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+	<project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
+	<project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
+	<project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
+	<project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
+	<project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
+	<project path="external/dbus" name="CyanogenMod/android_external_dbus" />
+	<project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
+	<project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" />
+	<project path="external/elfutils" name="CyanogenMod/android_external_elfutils" />
+	<project path="external/expat" name="CyanogenMod/android_external_expat" />
+	<project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
+	<project path="external/flac" name="CyanogenMod/android_external_flac" />
+	<project path="external/freetype" name="CyanogenMod/android_external_freetype" />
+	<project path="external/giflib" name="CyanogenMod/android_external_giflib" />
+	<project path="external/gtest" name="CyanogenMod/android_external_gtest" />
+	<project path="external/harfbuzz" name="platform/external/harfbuzz" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
+	<project path="external/iptables" name="CyanogenMod/android_external_iptables" />
+	<project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
+	<project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
+	<project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
+	<project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/libpng" name="CyanogenMod/android_external_libpng" />
+	<project path="external/libvpx" name="CyanogenMod/android_external_libvpx" />
+	<project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+	<project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
+	<project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
+	<project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
+	<project path="external/speex" name="CyanogenMod/android_external_speex" />
+	<project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
+	<project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+	<project path="external/strace" name="CyanogenMod/android_external_strace" />
+	<project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
+	<project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
+	<project path="external/webp" name="CyanogenMod/android_external_webp" />
+	<project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
+	<project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
+	<project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
+	<project path="external/zlib" name="CyanogenMod/android_external_zlib" />
+	<project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
+	<project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+	<project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+	<project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
+	<project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+	<project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
+	<project path="libcore" name="CyanogenMod/android_libcore" />
+	<project path="ndk" name="CyanogenMod/android_ndk" />
+	<project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+	<project path="system/core" name="CyanogenMod/android_system_core" />
+	<project path="system/extras" name="CyanogenMod/android_system_extras" />
+	<project path="system/media" name="CyanogenMod/android_system_media" />
+	<project path="system/netd" name="CyanogenMod/android_system_netd" />
+	<project path="system/vold" name="CyanogenMod/android_system_vold" />
+	<!--CM dependencies-->
+	<project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" 		revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
+	<project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+	<project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
+	<project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
+	<project path="external/busybox" name="CyanogenMod/android_external_busybox" />
+	<project path="external/skia" name="CyanogenMod/android_external_skia" />
+	<!-- mediatek -->
+	<project path="mediatek/build/android" name="Zmeya/StarV1277/mediatek/build/android" remote="master"/>
+    	<project path="mediatek/build/uboot" name="Zmeya/StarV1277/mediatek/build/uboot" remote="master"/>
+	<project path="mediatek/build/" name="Zmeya/StarV1277/mediatek/build/" remote="master"/>
+	<project path="mediatek/" name="Zmeya/StarV1277/mediatek/" remote="master"/>
+</manifest> 
