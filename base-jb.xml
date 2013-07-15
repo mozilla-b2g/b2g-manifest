@@ -100,7 +100,6 @@
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/ndk" path="ndk"/>
