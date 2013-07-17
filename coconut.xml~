@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="linaro" fetch="git://android.git.linaro.org/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases/"/>
-  <remote name="sprd" fetch="http://sprdsource.spreadtrum.com:8085/b2g/" />
+  <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
  
   <!-- Gonk specific things and forks -->
