@@ -47,7 +47,7 @@
   <project name="platform/external/freetype" path="external/freetype" />
   <project name="platform/external/gcc-demangle" path="external/gcc-demangle" />
   <project name="platform/external/giflib" path="external/giflib" />
-  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="344e5f3db17615cc853073a02968a603efd39109"/>
+  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="8c212ebe53bb2baab3575f03069016f1fb11e449"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" />
   <project name="platform/external/icu4c" path="external/icu4c" />
   <project name="platform/external/iproute2" path="external/iproute2" />
