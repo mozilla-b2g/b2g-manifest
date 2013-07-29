@@ -2,20 +2,17 @@
 
   <include name="base-jb.xml"/>
 
-  <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Nexus 4 specific things -->
-  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="b2g-4.2.2_r1"/>
-  <project name="device/generic/armv7-a" path="device/generic/armv7-a"/>
+  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="device/lge/mako-kernel" path="device/lge/mako-kernel"/>
+  <project name="device/lge/mako-kernel" path="device/lge/mako-kernel" revision="refs/tags/android-4.3_r2.1_"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960"/>
