@@ -72,7 +72,6 @@
   <project name="platform/external/sqlite" path="external/sqlite" />
   <project name="platform/external/stlport" path="external/stlport" />
   <project name="platform/external/strace" path="external/strace" />
-  <project name="platform/external/svox" path="external/svox" />
   <project name="platform/external/tagsoup" path="external/tagsoup" />
   <project name="platform/external/tinyalsa" path="external/tinyalsa" />
   <project name="platform/external/tremolo" path="external/tremolo" />
