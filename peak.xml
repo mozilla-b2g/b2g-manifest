@@ -74,7 +74,7 @@
   <project name="platform/external/sqlite" path="external/sqlite" remote="caf" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
   <project name="platform/external/stlport" path="external/stlport" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/strace" path="external/strace" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
-  <project name="platform/external/svox" path="external/svox" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/svox" path="external/svox" remote="caf" revision="ics_strawberry"/>
   <project name="platform/external/tagsoup" path="external/tagsoup" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa" remote="caf" revision="refs/tags/M8960AAAAANLYA1005304"/>
   <project name="platform/external/tremolo" path="external/tremolo" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
