@@ -3,7 +3,7 @@
 
   <include name="base-jb.xml" />
 
-  <default remote="aosp" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
+  <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Emulator specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
