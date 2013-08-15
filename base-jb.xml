@@ -12,7 +12,7 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
+  <project name="gecko.gi" path="gecko" remote="mozillaorg" revision="master" />
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
   <project name="gaia" path="gaia" remote="b2g" revision="master"/>
