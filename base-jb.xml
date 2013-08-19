@@ -5,12 +5,14 @@
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
+  <remote fetch="git://codeaurora.org/" name="caf"/>
+  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="mozilla-central" path="gecko" remote="mozilla" revision="master"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
   <project name="gaia" path="gaia" remote="b2g" revision="master"/>
