@@ -8,6 +8,7 @@
   <project name="device-mako" path="device/lge/mako" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/lge/mako-kernel" path="device/lge/mako-kernel" revision="refs/tags/android-4.3_r2.1_"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
