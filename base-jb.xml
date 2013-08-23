@@ -15,7 +15,7 @@
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
-  <project name="gaia" path="gaia" remote="b2g" revision="master"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
@@ -57,7 +57,7 @@
   <project name="platform/external/gtest" path="external/gtest"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
-  <project name="platform/external/icu4c" path="external/icu4c"/>
+  <project name="platform/external/icu4c" path="external/icu4c" revision="a8f744cec5125866672e131f328cc5a6e35c9173"/>
   <project name="platform/external/iproute2" path="external/iproute2"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project name="platform/external/iptables" path="external/iptables"/>
