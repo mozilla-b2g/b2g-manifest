@@ -20,8 +20,6 @@
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
-  <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
