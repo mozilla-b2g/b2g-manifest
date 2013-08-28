@@ -3,6 +3,9 @@
 
   <include name="base-jb.xml" />
 
+  <remote name="b2g"
+          fetch="git://github.com/mozilla-b2g/" />
+
   <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Emulator specific things -->
@@ -12,6 +15,6 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="master"/>
   <project name="platform/development" path="development"/>
-  <project name="platform/sdk" path="sdk"/>
+  <project name="android-sdk" path="sdk" remote="b2g" revision="8b1365af38c9a653df97349ee53a3f5d64fd590a"/>
 
 </manifest>
