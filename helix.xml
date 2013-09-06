@@ -11,7 +11,7 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
-  <default revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.01.00.019.211"
+  <default revision="b2g/ics_strawberry"
            remote="caf"
            sync-j="4" />
 
