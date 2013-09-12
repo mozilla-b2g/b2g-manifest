@@ -77,7 +77,7 @@
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnl-headers" path="external/libnl-headers"/>
   <project name="platform/external/libogg" path="external/libogg"/>
-  <project name="platform/external/libpng" path="external/libpng"/>
+  <project name="platform_external_libpng" path="external/libpng" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
@@ -108,7 +108,7 @@
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib"/>
-  <project name="platform/frameworks/av" path="frameworks/av"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform/frameworks/base" path="frameworks/base"/>
   <project name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
