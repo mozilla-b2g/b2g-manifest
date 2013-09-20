@@ -47,8 +47,6 @@
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
   <project name="platform/external/checkpolicy" path="external/checkpolicy"/>
-  <project name="platform/external/clang" path="external/clang"/>
-  <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
   <project name="platform/external/dropbear" path="external/dropbear"/>
@@ -81,7 +79,6 @@
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
-  <project name="platform/external/llvm" path="external/llvm"/>
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/netcat" path="external/netcat"/>
