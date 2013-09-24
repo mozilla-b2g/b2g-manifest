@@ -12,6 +12,7 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-jellybean"/>
   <project name="platform/development" path="development"/>
+  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="master" />
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-4.3_r2.1"/>
 
 </manifest>

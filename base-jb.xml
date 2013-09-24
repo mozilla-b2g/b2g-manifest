@@ -117,7 +117,6 @@
   <project name="platform/ndk" path="ndk"/>
   <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
