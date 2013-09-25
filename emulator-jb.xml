@@ -7,7 +7,7 @@
 
   <!-- Emulator specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="device/generic/goldfish" path="device/generic/goldfish"/>
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="b2g-4.3_r2.1" />
   <project name="platform_external_qemu" path="external/qemu" remote="b2g" revision="b2g-jellybean"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-jellybean"/>
