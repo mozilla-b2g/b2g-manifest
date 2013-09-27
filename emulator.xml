@@ -8,9 +8,9 @@
   <remote name="b2gmozilla"
            fetch="https://git.mozilla.org/b2g" />
   <remote name="b2g"
-           fetch="git://github.com/mozilla-b2g/" />
+           fetch="https://github.com/mozilla-b2g/" />
   <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
+	  fetch="https://github.com/mozilla/" />
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
