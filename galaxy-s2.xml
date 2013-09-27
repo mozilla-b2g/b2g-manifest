@@ -6,7 +6,7 @@
   <remote name="b2g"
           fetch="https://github.com/mozilla-b2g/" />
   <remote  name="caf"
-           fetch="ssh://codeaurora.org/" />
+           fetch="https://codeaurora.org/" />
   <remote name="mozilla"
 	  fetch="https://github.com/mozilla/" />
   <remote name="mozillaorg"
