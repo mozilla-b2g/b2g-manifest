@@ -109,7 +109,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
-  <project path="external/negatus" name="Negatus" remote="mozilla" revision="master" />
+  <project path="external/negatus" name="Negatus" remote="mozilla" revision="v1.2" />
   <project path="external/orangutan" name="orangutan" remote="b2g" revision="v1.2" />
 
 </manifest>
