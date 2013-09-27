@@ -5,15 +5,15 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="https://github.com/mozilla-b2g/" />
-  <remote  name="linaro"
-           fetch="http://android.git.linaro.org/git-ro/" />
+  <remote  name="caf"
+           fetch="https://codeaurora.org/" />
   <remote name="mozilla"
 	  fetch="https://github.com/mozilla/" />
   <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="linaro"
+           remote="caf"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
@@ -90,7 +90,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
-  <project path="prebuilt" name="platform/prebuilt.git" />
+  <project path="prebuilt" name="platform/prebuilt" revision="aosp-new/master" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
