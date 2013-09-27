@@ -11,7 +11,7 @@
 	  fetch="https://github.com/mozilla/" />
   <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="linaro"
            sync-j="4" />
