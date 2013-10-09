@@ -25,7 +25,7 @@
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1-train"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1-train"/>
   <project path="librecovery" name="librecovery" remote="b2g" revision="v1-train"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="v1-train"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.1.0hd"/>
   <project path="patches" name="gonk-patches" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
