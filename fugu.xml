@@ -8,7 +8,7 @@
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g/" name="sprd" />
 
-  <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
+  <default revision="refs/tags/android-4.3_r2.1" remote="aosp" sync-j="4" />
 
   <!-- sprd things -->
   <project name="kernel/common" path="kernel" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
@@ -22,18 +22,17 @@
   <project name="orangutan" path="orangutan" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
   <project name="sprd_patch" path="sprd_patch" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
 
-  <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="v1.2">
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <!-- B2G specific things. -->
+  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
+    <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.2" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="v1.2" />
-  <project path="gecko" name="mozilla-central" remote="mozillaorg" revision="v1.2" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.2" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.2" />
-  <project path="librecovery" name="librecovery" remote="b2g" revision="v1.2" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.2" />
-  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
+  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
 
 
   <!-- Stock Android things -->
