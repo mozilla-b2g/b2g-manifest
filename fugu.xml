@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--  <remote fetch="https://android.googlesource.com/" name="aosp"/> -->
+  <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" name="sprd-aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
@@ -9,7 +9,7 @@
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g" name="sprd-b2g" />
 
-  <default revision="refs/tags/android-4.0.4_r2.1" remote="sprd-aosp" sync-j="4" />
+  <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
 
   <!-- sprd things -->
   <project name="kernel/common" path="kernel" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
@@ -28,7 +28,7 @@
   </project>
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v1.2" />
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.2"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v1.2"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1.2"/>
   <project name="gaia" path="gaia" remote="mozillaorg" revision="v1.2"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.2"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="v1.2"/>
@@ -95,7 +95,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
+  <project path="frameworks/base" name="platform/frameworks/base" remote="sprd-aosp" revision="sprdb2g_gonk4.0"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
@@ -107,7 +107,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project path="system/core" name="platform/system/core" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
+  <project path="system/core" name="platform/system/core" remote="sprd-aosp" revision="sprdb2g_gonk4.0"/>
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
