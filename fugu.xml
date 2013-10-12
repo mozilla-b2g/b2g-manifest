@@ -2,34 +2,34 @@
 <manifest>
 
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
+  <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" name="sprd-aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
-  <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g/" name="sprd" />
+  <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g" name="sprd-b2g" />
 
   <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
 
   <!-- sprd things -->
-  <project name="kernel/common" path="kernel" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project name="device/sprd" path="device/sprd" remote="sprd" revision="sprdroid4.0_bsp" />
-  <project name="u-boot" path="u-boot" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project name="vendor/sprd/proprietories" path="vendor/sprd/proprietories" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7" />
-  <project name="vendor/sprd/proprietories-source" path="vendor/sprd/proprietories-source" remote="sprd" revision="sprdroid4.0_bsp" />
-  <project name="gaia/customize_apps" path="gaia/customize_apps" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="gaia/local_mk" path="gaia/local_mk" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="gaia/sprd_resource" path="gaia/sprd_resource" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="orangutan" path="orangutan" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="sprd_patch" path="sprd_patch" remote="sprd" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project name="kernel/common" path="kernel" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project name="u-boot" path="u-boot" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project name="device/sprd" path="device/sprd" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
+  <project name="vendor/sprd/proprietories" path="vendor/sprd/proprietories" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
+  <project name="gaia/customize_apps" path="gaia/customize_apps" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project name="gaia/local_mk" path="gaia/local_mk" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project name="gaia/sprd_resource" path="gaia/sprd_resource" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project name="orangutan" path="orangutan" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project name="sprd_patch" path="sprd_patch" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
+  <project name="platform_build" path="build" remote="b2g" revision="master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
+  <project name="gaia.git" path="gaia" remote="mozillaorg" revision="master"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
@@ -37,15 +37,15 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" remote="sprd" revision="sprdroid4.0_bsp"/>
+  <project path="bionic" name="platform/bionic" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/dbus" name="platform/external/dbus" />
@@ -87,7 +87,7 @@
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7" />
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
@@ -95,19 +95,19 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="sprd" revision="sprdroid4.0_bsp"/>
+  <project path="frameworks/base" name="platform/frameworks/base" remote="sprd-aosp" revision="sprdb2g_gonk4.0"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="sprd" revision="sprdroid4.0_bsp"/>
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="sprd" revision="sprdroid4.0_bsp"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="sprd" revision="sprdroid4.0_bsp"/>
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="sprd-aosp" revision="sprdroid4.0_bsp"/>
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" remote="sprd" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project path="system/core" name="platform/system/core" remote="sprd" revision="sprdroid4.0_bsp"/>
+  <project path="system/bluetooth" name="platform/system/bluetooth" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project path="system/core" name="platform/system/core" remote="sprd-aosp" revision="sprdb2g_gonk4.0"/>
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
