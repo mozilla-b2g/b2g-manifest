@@ -31,6 +31,7 @@
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
+  <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
