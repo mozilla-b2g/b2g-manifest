@@ -1,39 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" name="sprd-aosp"/>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
-  <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g" name="sprd-b2g" />
-
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
+  <remote name="mozilla" fetch="git://github.com/mozilla/" />
+  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <remote name="sprd-b2g" fetch="http://sprdsource.spreadtrum.com:8085/b2g" />
+  <remote name="sprd-aosp" fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" />
   <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
 
-  <!-- sprd things -->
-  <project name="kernel/common" path="kernel" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project name="u-boot" path="u-boot" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
-  <project name="device/sprd" path="device/sprd" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
-  <project name="vendor/sprd/proprietories" path="vendor/sprd/proprietories" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
-  <project name="gaia/customize_apps" path="gaia/customize_apps" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="gaia/local_mk" path="gaia/local_mk" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="gaia/sprd_resource" path="gaia/sprd_resource" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="orangutan" path="orangutan" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project name="sprd_patch" path="sprd_patch" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="v1.2">
-    <copyfile dest="Makefile" src="core/root.mk"/>
+  <project path="build" name="platform_build" remote="b2g" revision="v1.2">
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v1.2" />
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.2"/>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1.2"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v1.2"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.2"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v1.2"/>
-  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
-
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.2" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.2" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.2" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.2" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.2" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.2" />
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -113,4 +100,14 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
  
+  <!-- sprd things -->
+  <project path="kernel" name="kernel/common" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project path="u-boot" name="u-boot" remote="sprd-aosp" revision="refs/tags/MOCORDROID4.1_3.0_SP7710_13A_W13.39.7"/>
+  <project path="device/sprd" name="device/sprd" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
+  <project path="vendor/sprd/proprietories" name="vendor/sprd/proprietories" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
+  <project path="gaia/customize_apps" name="gaia/customize_apps" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project path="gaia/local_mk" name="gaia/local_mk"  remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project path="gaia/sprd_resource" name="gaia/sprd_resource" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g"/>
+  <project path="orangutan" name="orangutan" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
+  <project path="sprd_patch" name="sprd_patch" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
 </manifest>
