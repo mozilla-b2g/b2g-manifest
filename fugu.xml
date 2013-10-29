@@ -109,5 +109,4 @@
   <project path="gaia/local_mk" name="gaia/local_mk"  remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
   <project path="gaia/sprd_resource" name="gaia/sprd_resource" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g"/>
   <project path="orangutan" name="orangutan" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project path="sprd_patch" name="sprd_patch" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
 </manifest>
