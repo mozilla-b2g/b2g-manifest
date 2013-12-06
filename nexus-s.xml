@@ -5,15 +5,15 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
-  <remote  name="linaro"
-           fetch="http://android.git.linaro.org/git-ro/" />
+  <remote  name="caf"
+          fetch="git://codeaurora.org/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="linaro"
+           remote="caf"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
