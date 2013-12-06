@@ -4,14 +4,14 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
+          fetch="https://github.com/abtekk/" />
   <remote  name="linaro"
            fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
-  <remote name="mozillaorg" 
+	  fetch="https://github.com/mozilla/" />
+  <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -28,6 +28,7 @@
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
+  
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
@@ -50,7 +51,7 @@
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
+  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -67,13 +68,12 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox" />
+  <project path="external/svox" name="platform/external/svox"/>
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tremolo" name="platform/external/tremolo" />
@@ -91,7 +91,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="platform/prebuilt.git" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
@@ -99,8 +99,9 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Nexus S specific things -->
-  <project path="device/samsung/crespo" name="android-device-crespo" remote="b2g" revision="master" />
+  <!-- Galaxy S2 things -->
+  <project path="device/samsung/venturi" name="android_device_samsung_venturi" remote="b2g" revision="cm-10.2" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
 </manifest>

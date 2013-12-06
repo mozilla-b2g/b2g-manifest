@@ -4,16 +4,16 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
+          fetch="https://github.com/mozilla-b2g/" />
   <remote  name="linaro"
            fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
+	  fetch="https://github.com/mozilla/" />
   <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="linaro"
+           remote="aosp"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
@@ -28,6 +28,7 @@
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
+  
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
@@ -90,7 +91,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="platform/prebuilt.git" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
