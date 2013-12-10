@@ -19,17 +19,17 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="master">
+  <project path="build" name="platform_build" remote="b2g" revision="v1.3">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
-  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.3" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.3" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.3" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.3" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="v1.3"/>
+  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="v1.3"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -38,7 +38,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1.3" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -47,8 +47,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v1.3" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v1.3" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
@@ -67,11 +67,11 @@
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/mksh" name="platform/external/mksh" />
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="v1.3" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="v1.3" />
   <project path="external/skia" name="platform/external/skia" revision="8c1c7cfacd82a174c65fcbf839d7037e3692aee8" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -104,12 +104,12 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator specific things -->
-  <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="master" />
+  <project path="development" name="android-development" remote="b2g" revision="v1.3" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="v1.3" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="aosp-new/master" />
-  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="master" />
-  <project path="sdk" name="android-sdk" remote="b2g" revision="emu-fix" />
+  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="v1.3" />
+  <project path="sdk" name="android-sdk" remote="b2g" revision="v1.3" />
 
 </manifest>
