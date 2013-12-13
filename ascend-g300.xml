@@ -134,7 +134,7 @@
 
   <!-- U8815 -->
   <project path="device/huawei/u8815" name="android_device_huawei_u8815" remote="cristomc" revision="b2g" />
-  <project path="kernel/huawei/u8815" name="android_kernel_huawei_u8815" remote="cristomc" revision="ics" />
+  <project path="kernel/huawei/u8815" name="huawei-kernel-3.4" remote="cristomc" revision="master" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="cristomc" revision="b2g" />
 
 </manifest>
