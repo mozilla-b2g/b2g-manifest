@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
+  <remote name="caf"
+          fetch="git://codeaurora.org/" />
   <remote  name="linaro"
            fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozilla"
@@ -92,7 +94,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
+  <project path="system/core" name="platform/system/core" revision="b2g_ics_1.2" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />

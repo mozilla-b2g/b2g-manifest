@@ -97,7 +97,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" revision="aosp-new/master" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" revision="91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64" />
+  <project path="system/core" name="platform/system/core" revision="b2g_ics_1.2" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
