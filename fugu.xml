@@ -8,6 +8,7 @@
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
   <remote name="sprd-b2g" fetch="http://sprdsource.spreadtrum.com:8085/b2g" />
   <remote name="sprd-aosp" fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" />
+  <remote name="sprd-github" fetch="https://github.com/sprd-ffos/" />
   <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
 
   <!-- B2G specific things. -->
@@ -75,7 +76,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="sprdroid4.0_bsp"/>
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="sprdb2g_gonk4.0"/>
@@ -98,11 +99,10 @@
  
   <!-- sprd things -->
   <project path="kernel" name="kernel/common" remote="sprd-aosp" revision="sprdb2g_gonk4.0"/>
-  <project path="device/sprd" name="device/sprd" remote="sprd-aosp" revision="sprdroid4.0_bsp" />
+  <project path="device/sprd" name="device-sprd" remote="sprd-github" revision="master" />
   <project path="device/sprd/fugu" name="device-fugu" remote="b2g" revision="v1.3" />
   <project path="gaia/customize_apps" name="gaia/customize_apps" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
   <project path="gaia/local_mk" name="gaia/local_mk"  remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
   <project path="gaia/sprd_resource" name="gaia/sprd_resource" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g"/>
   <project path="orangutan" name="orangutan" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
-  <project path="sprd_patch" name="sprd_patch" remote="sprd-b2g" revision="sprdroid4.0.3_vlx_3.0_b2g" />
 </manifest>
