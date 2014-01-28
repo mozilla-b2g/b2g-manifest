@@ -19,16 +19,16 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="v1.3">
+  <project path="build" name="platform_build" remote="b2g" revision="v1.3t">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.3" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.3" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.3" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.3" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3" />
-  <project path="librecovery" name="librecovery" remote="b2g" revision="v1.3" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3" />
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.3t" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.3t" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.3t" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.3t" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3t" />
+  <project path="librecovery" name="librecovery" remote="b2g" revision="v1.3t" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3t" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -38,7 +38,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1.3" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1.3t" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -47,8 +47,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v1.3" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v1.3" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v1.3t" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v1.3t" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
@@ -68,11 +68,11 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/mksh" name="platform/external/mksh" />
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="v1.3" />
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="v1.3t" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="v1.3" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="v1.3t" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -83,7 +83,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="v1.3" />
+  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="v1.3t" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
@@ -108,10 +108,10 @@
   <!-- Otoro/Unagi/Inari specific things -->
   <project path="device/qcom/common" name="device/qcom/common" />
   <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" />
-  <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="v1.3" />
-  <project path="device/qcom/unagi" name="android-device-unagi" remote="b2g" revision="v1.3" />
-  <project path="device/qcom/inari" name="device-inari" remote="b2g" revision="v1.3" />
-  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="v1.3" />
+  <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="v1.3t" />
+  <project path="device/qcom/unagi" name="android-device-unagi" remote="b2g" revision="v1.3t" />
+  <project path="device/qcom/inari" name="device-inari" remote="b2g" revision="v1.3t" />
+  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="v1.3t" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />

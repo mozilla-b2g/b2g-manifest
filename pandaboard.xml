@@ -19,15 +19,15 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="v1.3">
+  <project path="build" name="platform_build" remote="b2g" revision="v1.3t">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.3" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.3" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.3" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.3" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3" />
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.3t" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.3t" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.3t" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.3t" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3t" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3t" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -36,7 +36,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1.3" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1.3t" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -46,8 +46,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v1.3" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v1.3" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v1.3t" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v1.3t" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
@@ -67,11 +67,11 @@
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/mksh" name="platform/external/mksh" />
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="v1.3" />
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="v1.3t" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="v1.3" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="v1.3t" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -105,11 +105,11 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Pandaboard specific things -->
-  <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="v1.3" />
+  <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="v1.3t" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
-  <project path="external/negatus" name="Negatus" remote="mozilla" revision="v1.3" />
-  <project path="external/orangutan" name="orangutan" remote="b2g" revision="v1.3" />
+  <project path="external/negatus" name="Negatus" remote="mozilla" revision="v1.3t" />
+  <project path="external/orangutan" name="orangutan" remote="b2g" revision="v1.3t" />
 
 </manifest>

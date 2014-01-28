@@ -9,18 +9,18 @@
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
+  <project name="platform_build" path="build" remote="b2g" revision="v1.3t">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v1.3" />
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.3"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v1.3"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v1.3"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.3"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v1.3"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v1.3t" />
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.3t"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v1.3t"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v1.3t"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.3t"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v1.3t"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
-  <project path="external/valgrind" name="valgrind" remote="b2g" revision="v1.3" />
-  <project path="external/VEX" name="vex" remote="b2g" revision="v1.3" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="v1.3t" />
+  <project path="external/VEX" name="vex" remote="b2g" revision="v1.3t" />
 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1"/>
@@ -75,7 +75,7 @@
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnl-headers" path="external/libnl-headers"/>
   <project name="platform/external/libogg" path="external/libogg"/>
-  <project name="platform_external_libpng" path="external/libpng" remote="b2g" revision="v1.3"/>
+  <project name="platform_external_libpng" path="external/libpng" remote="b2g" revision="v1.3t"/>
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
@@ -105,7 +105,7 @@
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib"/>
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="v1.3"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="v1.3t"/>
   <project name="platform/frameworks/base" path="frameworks/base"/>
   <project name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
@@ -121,7 +121,7 @@
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="v1.3"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="v1.3t"/>
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
