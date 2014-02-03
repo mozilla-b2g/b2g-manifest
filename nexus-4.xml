@@ -5,7 +5,7 @@
   <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Nexus 4 specific things -->
-  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="b2g-4.3_r2.1"/>
+  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="db81125fc71fdd583480ad68195df5dbf6156a1f"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/lge/mako-kernel" path="device/lge/mako-kernel" revision="refs/tags/android-4.3_r2.1_"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
