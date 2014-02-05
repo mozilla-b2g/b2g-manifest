@@ -14,6 +14,7 @@
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
