@@ -36,6 +36,7 @@
   <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"/>
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7"/>
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7"/>
+  <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7"/>
   <project name="device/common" path="device/common"/>
   <project name="device/sample" path="device/sample"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
@@ -117,7 +118,7 @@
   <project name="platform/ndk" path="ndk"/>
   <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
+  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="master" />
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>

@@ -6,12 +6,14 @@
   <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Emulator specific things -->
+  <project name="android-development" path="development" remote="b2g" revision="b2g-4.3_r2.1" />
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="b2g-4.3_r2.1" />
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform_external_qemu" path="external/qemu" remote="b2g" revision="b2g-jellybean"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-jellybean"/>
-  <project name="platform/development" path="development"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-4.3_r2.1"/>
 
 </manifest>
