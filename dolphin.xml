@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-kk.xml"/>
+
+  <remote name="sprd-aosp" fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" />
+
+  <default revision="sprdb2g_gonk4.4" remote="sprd-aosp" sync-j="4"/>
+
+  <!-- dolphin specific things -->
+  <project path="device/sprd" name="device/sprd"  />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="frameworks/av" name="platform/frameworks/av" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="kernel" name="kernel/common" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="u-boot" name="u-boot" />
+  <project path="vendor/sprd/open-source" name="vendor/sprd/open-source"  />
+  <project path="vendor/sprd/partner" name="vendor/sprd/partner"  />
+  <project path="vendor/sprd/proprietories" name="vendor/sprd/proprietories"  />
+
+</manifest>

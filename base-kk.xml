@@ -125,7 +125,4 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
 
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
-
 </manifest>

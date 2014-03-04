@@ -23,5 +23,7 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
 
 </manifest>
