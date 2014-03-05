@@ -12,7 +12,7 @@
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <default revision="b2g/ics_strawberry"
+  <default revision="b2g/ics_strawberry_v1"
            remote="caf"
            sync-j="4" />
 
@@ -115,5 +115,5 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="b2g_ics_1.2" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="b2g_ics_1.2" />
+  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
 </manifest>
