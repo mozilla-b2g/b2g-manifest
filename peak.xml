@@ -47,7 +47,7 @@
   <project name="platform/external/flac" path="external/flac" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/freetype" path="external/freetype" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/giflib" path="external/giflib" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project name="platform/external/gtest" path="external/gtest" remote="linaro" revision="refs/tags/android-4.2_r1"/>
+  <project name="platform/external/gtest" path="external/gtest" remote="caf" revision="refs/tags/android-4.2_r1"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/icu4c" path="external/icu4c" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/iptables" path="external/iptables" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
