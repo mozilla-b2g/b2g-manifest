@@ -22,12 +22,12 @@
   <project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="v1.4" />
+  <project path="gaia" name="gaia" remote="mozillaorg" revision="v1.4" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.4" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.4" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.4" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.4" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -129,7 +129,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon"/>
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
-  <project path="device/allwinner/flatfish" name="device-flatfish" remote="b2g" revision="master"/>
+  <project path="device/allwinner/flatfish" name="device-flatfish" remote="b2g" revision="v1.4"/>
 
   <!-- bluez -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="b2g/jb_mr1_rb2.17"/>

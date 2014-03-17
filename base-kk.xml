@@ -12,14 +12,14 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project> 
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="fxos"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="fxos"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v1.4"/>
+  <project name="gecko" path="gecko" remote="mozillaorg" revision="v1.4"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v1.4"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.4"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v1.4"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.4"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v1.4"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v1.4"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
 
   <!-- Stock Android things -->
@@ -123,7 +123,7 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
 
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="v1.4"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="v1.4"/>
 
 </manifest>
