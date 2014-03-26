@@ -46,7 +46,7 @@
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/gtest" name="platform/external/gtest" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="sprdb2g_gonk4.0" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jhead" name="platform/external/jhead" revision="sprdb2g_gonk4.0" />
