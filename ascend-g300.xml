@@ -61,7 +61,7 @@
   <project path="external/hostap" name="platform/external/hostap" remote="caf" revision="ics_chocolate" />
 
   <!-- Linaro -->
-  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="master" />
+  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
 
   <!-- CyanogenMod -->
   <project path="bionic" name="android_bionic" />
