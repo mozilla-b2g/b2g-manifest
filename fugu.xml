@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="sprd-aosp"
-          fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" />
-  <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
-  <remote name="mozilla"
-          fetch="git://github.com/mozilla/" />
-  <remote name="apitrace"
-          fetch="git://github.com/apitrace/" />
-  <remote name="mozillaorg"
-          fetch="https://git.mozilla.org/releases" />
-  <remote name="sprd-b2g"
-          fetch="http://sprdsource.spreadtrum.com:8085/b2g" />
-  <remote name="sprd-github"
-          fetch="https://github.com/sprd-ffos/" />
+  <remote name="sprd-aosp" fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" />
+  <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
+  <remote name="mozilla" fetch="https://github.com/mozilla/" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <remote name="sprd-b2g" fetch="http://sprdsource.spreadtrum.com:8085/b2g" />
+  <remote name="sprd-github" fetch="https://github.com/sprd-ffos/" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="sprd-aosp"
            sync-j="4" />

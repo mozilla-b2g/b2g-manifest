@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/gp-b2g/" name="gp-b2g"/>
-  <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="git://android.git.linaro.org/" name="linaro"/>
+  <remote fetch="https://github.com/mozilla-b2g/" name="b2g"/>
+  <remote fetch="https://github.com/gp-b2g/" name="gp-b2g"/>
+  <remote fetch="https://git.mozilla.org/" name="mozillaorg"/>
+  <remote fetch="https://git.mozilla.org/external/caf/" name="caf"/>
+  <remote fetch="https://git.mozilla.org/external/linaro/" name="linaro"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <default remote="QRD" revision="ics_master_qrd_101" sync-j="9"/>
 
   <!-- Gonk specific things and forks -->

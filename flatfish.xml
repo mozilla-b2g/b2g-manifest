@@ -1,22 +1,14 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <remote name="aosp"
-          fetch="https://android.googlesource.com/" />
-  <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
-  <remote name="apitrace"
-          fetch="git://github.com/apitrace/" />
-  <remote name="caf"
-          fetch="git://codeaurora.org/" />
-  <remote name="mozillaorg"
-          fetch="https://git.mozilla.org/releases" />
-  <remote name="allwinner"
-          fetch="https://github.com/flatfish-fox/" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
+  <remote name="caf" fetch="https://git.mozilla.org/external/caf/" />
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <remote name="allwinner" fetch="https://github.com/flatfish-fox/" />
 
-  <default revision="refs/tags/android-4.2.2_r1"
-           remote="aosp"
-           sync-j="4"/>
+  <default revision="refs/tags/android-4.2.2_r1" remote="aosp" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">

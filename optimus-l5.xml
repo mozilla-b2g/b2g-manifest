@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
-  <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
-  <remote name="caf"
-          fetch="git://codeaurora.org/" />
-  <remote  name="linaro"
-           fetch="http://android.git.linaro.org/git-ro/" />
-  <remote name="mozillaorg"
-           fetch="https://git.mozilla.org/releases" />
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
+  <remote name="mozilla" fetch="https://github.com/mozilla/" />
+  <remote name="caf" fetch="https://git.mozilla.org/external/caf/" />
+  <remote name="linaro" fetch="https://git.mozilla.org/external/linaro/" />
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <default revision="ics_chocolate"
            remote="caf"
            sync-j="4" />

@@ -2,14 +2,12 @@
 <manifest>
 
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/"/>
-  <remote name="mozilla" fetch="git://github.com/mozilla/"/>
-  <remote name="linaro" fetch="git://android.git.linaro.org/"/>
+  <remote name="mozilla" fetch="https://github.com/mozilla/"/>
+  <remote name="linaro" fetch="https://git.mozilla.org/external/linaro/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases/"/>
   <remote name="sprd" fetch="http://sprdsource.spreadtrum.com:8085/b2g/" />
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <default revision="sprdroid4.0.3_vlx_3.0_b2g"
-           remote="sprd"
-           sync-j="4" />
+  <remote name="apitrace" fetch="https://github.com/apitrace/" />
+  <default revision="sprdroid4.0.3_vlx_3.0_b2g" remote="sprd" sync-j="4" />
 
   <!-- Gonk specific things and forks -->
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
