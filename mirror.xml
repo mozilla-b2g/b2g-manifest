@@ -126,7 +126,6 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
-  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
 
   <!-- Otoro/Unagi/Inari specific things -->
   <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="master" />
