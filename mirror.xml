@@ -110,7 +110,6 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator specific things -->
-  <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="aosp-new/master" />
