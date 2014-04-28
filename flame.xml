@@ -14,6 +14,7 @@
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="b2g/jb_mr1_rb2.17"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="b2g/jb_mr1_rb2.17"/>
   <project name="platform/external/dbus" path="external/dbus" revision="b2g/jb_mr1_rb2.17"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/frameworks/av" path="frameworks/av" revision="b2g_jb_3.2"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="b2g_jb_3.2"/>
@@ -28,6 +29,7 @@
   <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_jb_3.2"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="b2g_jb_3.2"/>
   <project name="platform/system/core" path="system/core" revision="b2g_jb_3.2"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom" revision="jb_3.2.5_rb1.7"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="b2g_jb_3.2"/>
 
