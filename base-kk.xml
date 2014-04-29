@@ -61,7 +61,6 @@
   <project name="platform/external/gtest" path="external/gtest"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
-  <project name="platform/external/icu4c" path="external/icu4c" remote="aosp"/>
   <project name="platform/external/iproute2" path="external/iproute2"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project name="platform/external/iptables" path="external/iptables"/>
