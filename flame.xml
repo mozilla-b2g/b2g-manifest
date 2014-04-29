@@ -10,6 +10,8 @@
   <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="master"/>
   <project name="kernel/msm" path="kernel" revision="b2g_jb_3.2"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="b2g_jb_3.2"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_jb_3.2"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="b2g/jb_mr1_rb2.17"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="b2g/jb_mr1_rb2.17"/>
