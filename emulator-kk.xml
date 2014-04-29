@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <include name="base-kk.xml" />
+  <include name="base-kk-aosp.xml" />
 
   <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 
@@ -11,8 +11,6 @@
   <project name="platform_external_qemu" path="external/qemu" remote="b2g" revision="b2g-kitkat"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-kitkat"/>
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
   <project name="platform/development" path="development"/>
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-4.4.2_r1"/>
 

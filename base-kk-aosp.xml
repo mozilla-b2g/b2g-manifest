@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk.xml"/>
+
+  <project name="platform/external/icu4c" path="external/icu4c" remote="aosp"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
+
+</manifest>
