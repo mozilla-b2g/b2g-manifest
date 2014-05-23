@@ -2,13 +2,15 @@
 
   <include name="base-caf-jb.xml"/>
 
+  <remote fetch="https://github.com/t2m-foxfone" name="t2m" />
+
   <default remote="caf" revision="jb_3.2" sync-j="4"/>
 
   <!-- Flame specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="b2g_jb_3.2"/>
   <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="master"/>
-  <project name="kernel/msm" path="kernel" revision="b2g_jb_3.2"/>
+  <project name="kernel_msm" path="kernel" remote="t2m" revision="foxfone-one" />
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="b2g_jb_3.2"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_jb_3.2"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="b2g/jb_mr1_rb2.17"/>
