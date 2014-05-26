@@ -21,7 +21,33 @@
   <project path="librecovery" name="librecovery" remote="b2g" revision="v1.3t" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3t" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-  
+
+  <!-- l10n -->
+  <project name="l10n/bg/gaia" path="gaia-l10n/bg" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/bn-BD/gaia" path="gaia-l10n/bn-BD" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/ca/gaia" path="gaia-l10n/ca" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/cs/gaia" path="gaia-l10n/cs" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/de/gaia" path="gaia-l10n/de" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/el/gaia" path="gaia-l10n/el" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/en-US/gaia" path="gaia-l10n/en-US" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/es/gaia" path="gaia-l10n/es" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/fr/gaia" path="gaia-l10n/fr" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/hr/gaia" path="gaia-l10n/hr" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/hu/gaia" path="gaia-l10n/hu" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/it/gaia" path="gaia-l10n/it" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/mk/gaia" path="gaia-l10n/mk" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/nl/gaia" path="gaia-l10n/nl" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/pl/gaia" path="gaia-l10n/pl" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/pt-BR/gaia" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/ro/gaia" path="gaia-l10n/ro" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/ru/gaia" path="gaia-l10n/ru" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/sk/gaia" path="gaia-l10n/sk" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/sr-Cyrl/gaia" path="gaia-l10n/sr-Cyrl" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/sr-Latn/gaia" path="gaia-l10n/sr-Latn" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/tr/gaia" path="gaia-l10n/tr" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/zh-CN/gaia" path="gaia-l10n/zh-CN" remote="mozillaorg" revision="v1.3" />
+  <project name="l10n/zh-TW/gaia" path="gaia-l10n/zh-TW" remote="mozillaorg" revision="v1.3" />
+
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" revision="sprdroid4.0_bsp"/>
