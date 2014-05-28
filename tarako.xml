@@ -91,7 +91,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" revision="sprdb2g_gonk4.0"/>
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="platform/system/vold" revision="sprdb2g_gonk4.0_6821"/>
 
   <!-- sprd things -->
   <project path="kernel" name="kernel/common" remote="sprd-aosp" revision="sprdb2g_gonk4.0_6821"/>
