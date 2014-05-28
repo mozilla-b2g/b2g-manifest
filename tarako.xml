@@ -20,8 +20,8 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3t" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="v1.3t" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3t" />
-  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-  
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="3f9ed159f086a5550ae68c74ab585c298fbccf4a" />
+
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" revision="sprdroid4.0_bsp"/>
