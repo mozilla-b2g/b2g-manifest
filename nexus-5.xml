@@ -7,7 +7,7 @@
   <!-- Nexus 5 specific things -->
   <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="b2g-4.4.2_r1"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="device/lge/hammerhead-kernel" path="device/lge/hammerhead-kernel"/>
+  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="b2g-4.4.2_r1"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
