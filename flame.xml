@@ -7,7 +7,7 @@
   <!-- Flame specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="b2g_jb_3.2"/>
-  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="master"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="v1.4"/>
   <project name="kernel/msm" path="kernel" revision="b2g_jb_3.2"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="b2g_jb_3.2"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_jb_3.2"/>
