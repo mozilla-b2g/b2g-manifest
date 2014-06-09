@@ -20,12 +20,12 @@
   <project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="v2.0" />
+  <project path="gaia" name="gaia" remote="mozillaorg" revision="v2.0" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v2.0" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v2.0" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v2.0" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v2.0" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->

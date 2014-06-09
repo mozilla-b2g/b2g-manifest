@@ -10,16 +10,16 @@
   <default revision="refs/tags/android-4.0.4_r2.1" remote="sprd-aosp" sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="master">
+  <project path="build" name="platform_build" remote="b2g" revision="v2.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v2.0" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v2.0" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v2.0" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v2.0" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v2.0" />
+  <project path="librecovery" name="librecovery" remote="b2g" revision="v2.0" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v2.0" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
   
   <!-- Stock Android things -->
@@ -27,7 +27,7 @@
   <project path="bionic" name="platform/bionic" revision="sprdroid4.0_bsp"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="sprdb2g_gonk4.0_6821" />
   <project path="device/common" name="device/common" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v2.0" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="sprdb2g_gonk4.0_6821"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="sprdb2g_gonk4.0_6821"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="sprdb2g_gonk4.0_6821"/>
@@ -36,8 +36,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v2.0" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v2.0" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
@@ -57,11 +57,11 @@
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/mksh" name="platform/external/mksh" />
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="v2.0" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="v2.0" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
