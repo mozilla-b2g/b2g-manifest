@@ -25,7 +25,7 @@
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" revision="sprdroid4.0_bsp"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="sprdb2g_gonk4.0_6821" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="425f8b5fadf5889834c5acd27d23c9e0b2129c28" />
   <project path="device/common" name="device/common" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1.3t" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="sprdb2g_gonk4.0_6821"/>
