@@ -33,5 +33,6 @@
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom" revision="jb_3.2.5_rb1.7"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="b2g_jb_3.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="ce18b47b4a4f93a581d672bbd5cb6d12fe796ca9"/>
 
 </manifest>
