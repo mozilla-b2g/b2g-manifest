@@ -112,5 +112,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="acba00cdb4596c6dcb61ed06f14cf4ec89623539" />
   <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="master" />
   <project path="sdk" name="android-sdk" remote="b2g" revision="emu-fix" />
+  <project path="system/darwinstreamingserver" name="darwinstreamingserver" remote="b2g" revision="master" />
 
 </manifest>
