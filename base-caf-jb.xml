@@ -74,6 +74,7 @@
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnl-headers" path="external/libnl-headers"/>
   <project name="platform/external/libogg" path="external/libogg"/>
+  <project name="platform/external/libpcap" path="external/libpcap"/>
   <project name="platform/external/libpng" path="external/libpng"/>
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
@@ -96,6 +97,7 @@
   <project name="platform/external/strace" path="external/strace"/>
   <project name="platform/external/svox" path="external/svox"/>
   <project name="platform/external/tagsoup" path="external/tagsoup"/>
+  <project name="platform/external/tcpdump" path="external/tcpdump"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
   <project name="platform/external/tinyxml" path="external/tinyxml"/>
   <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
