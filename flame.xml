@@ -12,9 +12,6 @@
   <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_jb_3.2"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="b2g/jb_mr1_rb2.17"/>
-  <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="b2g/jb_mr1_rb2.17"/>
-  <project name="platform/external/dbus" path="external/dbus" revision="b2g/jb_mr1_rb2.17"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/frameworks/av" path="frameworks/av" revision="b2g_jb_3.2"/>
@@ -27,8 +24,8 @@
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="b2g_jb_3.2"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="jb_3.2.5_rb1.7"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="jb_3.2.5_rb1.7"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="jb_3.2.5_rb1.7"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_jb_3.2"/>
-  <project name="platform/system/bluetooth" path="system/bluetooth" revision="b2g_jb_3.2"/>
   <project name="platform/system/core" path="system/core" revision="b2g_jb_3.2"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom" revision="jb_3.2.5_rb1.7"/>
