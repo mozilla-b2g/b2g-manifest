@@ -13,5 +13,6 @@
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-kitkat"/>
   <project name="platform/development" path="development"/>
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="darwinstreamingserver" path="system/darwinstreamingserver" remote="b2g" revision="master" />
 
 </manifest>
