@@ -143,7 +143,7 @@
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="u-boot" name="u-boot" />
   <project path="vendor/sprd/gps" name="vendor/sprd/gps" />
-  <project path="vendor/sprd/open-source" name="vendor/sprd/open-source" revision="5bf05756148495fc6d72e7889a39a9f189257154" />
+  <project path="vendor/sprd/open-source" name="vendor/sprd/open-source"  />
   <project path="vendor/sprd/partner" name="vendor/sprd/partner"  />
   <project path="vendor/sprd/proprietories" name="vendor/sprd/proprietories"  />
 
