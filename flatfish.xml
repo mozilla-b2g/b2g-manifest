@@ -42,10 +42,12 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm"/>
   <project path="device/sample" name="device/sample"/>
+  <project path="device/common" name="device/common"/>
   <project path="abi/cpp" name="platform/abi/cpp"/>
   <project path="bionic" name="platform/bionic"/>
   <project path="bootable/recovery" name="platform/bootable/recovery"/>
   <project path="external/aac" name="platform/external/aac"/>
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid"/>
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clang" name="platform/external/clang"/>
@@ -133,12 +135,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
   <project path="device/allwinner/flatfish" name="device-flatfish" remote="b2g" revision="master"/>
 
-  <!-- bluez -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="b2g/jb_mr1_rb2.17"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="b2g/jb_mr1_rb2.17"/>
-
   <!-- allwinner things -->
-  <project path="device/common" name="flatfish-device_common" remote="allwinner" revision="master"/>
   <project path="frameworks/native" name="flatfish-frameworks_native" remote="allwinner" revision="master"/>
   <project path="hardware/libhardware" name="flatfish-hardware_libhardware" remote="allwinner" revision="master"/>
   <project path="device/allwinner/common" name="flatfish-device_allwinner_common" remote="allwinner" revision="master"/>
