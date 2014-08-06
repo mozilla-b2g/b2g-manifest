@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk-caf.xml"/>
+
+  <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
+  <default remote="caf" revision="LNX.LA.3.5.1_RB1.2" sync-j="4"/>
+
+  <!-- Flame specific things -->
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device/qcom/common" path="device/qcom/common" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="kitkat"/>
+  <project name="kernel/msm" path="kernel" />
+  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth"/>
+  <project name="platform/system/core" path="system/core" revision="LNX.LF.3.5.1_RB1.2"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
+  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="LNX.LF.3.5.1_RB1.2"/>
+
+</manifest>

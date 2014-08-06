@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk.xml"/>
+
+  <project name="platform/external/icu4c" path="external/icu4c" />
+  <remove-project name="platform/frameworks/base"/>
+  <remove-project name="platform/frameworks/native"/>
+  <remove-project name="platform/hardware/libhardware"/>
+  <remove-project name="platform/external/bluetooth/bluedroid"/>
+
+</manifest>
