@@ -13,6 +13,7 @@
   <project name="libnfcemu" path="external/libnfcemu" remote="b2g" revision="master" />
   <project name="platform_external_qemu" path="external/qemu" remote="b2g" revision="b2g-jellybean"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="android-hardware_legacy" path="hardware/libhardware_legacy" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-jellybean"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-4.3_r2.1"/>

@@ -11,6 +11,7 @@
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
