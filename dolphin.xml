@@ -133,7 +133,7 @@
   <project name="platform/external/icu4c" path="external/icu4c" />
 
   <!-- dolphin specific things -->
-  <project path="device/sprd" name="device/sprd" revision="a5507c0bea958453f5e640343e6c60530558ac9d" />
+  <project path="device/sprd" name="device/sprd"  />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="hardware/akm" name="platform/hardware/akm" />
