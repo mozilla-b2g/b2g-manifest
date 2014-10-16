@@ -95,7 +95,8 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware"
            remote="b2g" revision="bcm2835-4.0.1_r1.1" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
@@ -106,12 +107,15 @@
            remote="b2g" revision="bcm2835-4.0.1_r1.1" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/netd" name="platform_system_netd"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- RPi things -->
   <project path="device/rpi/rpi" name="device-rpi" remote="b2g" revision="master" />
   <project path="brcm_usrlib/dag" name="brcm_usrlib_dag"
            remote="b2g" revision="bcm2835-4.0.1_r1.1" />
+  <project path="hardware/realtek" name="platform_hardware_realtek"
+           remote="b2g" revision="master" />
   <!-- TODO: kernel? -->
 </manifest>
