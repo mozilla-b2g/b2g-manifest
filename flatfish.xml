@@ -134,6 +134,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
   <project path="device/allwinner/flatfish" name="device-flatfish" remote="b2g" revision="master"/>
+  <project path="kernel" name="kernel_flatfish" remote="b2g" revision="flatfish-b2g"/>
 
   <!-- allwinner things -->
   <project path="frameworks/native" name="flatfish-frameworks_native" remote="allwinner" revision="master"/>
