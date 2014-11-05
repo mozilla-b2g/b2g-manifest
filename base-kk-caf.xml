@@ -8,5 +8,7 @@
   <remove-project name="platform/frameworks/native"/>
   <remove-project name="platform/hardware/libhardware"/>
   <remove-project name="platform/external/bluetooth/bluedroid"/>
+  <remove-project name="platform/system/media"/>
+  <project name="platform/system/media" path="system/media" revision="LNX.LF.3.5.2.1_1"/>
 
 </manifest>

@@ -122,7 +122,7 @@
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/extras" path="system/extras"/>
-  <project name="platform/system/media" path="system/media" revision="LNX.LF.3.5.2.1_1"/>
+  <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
