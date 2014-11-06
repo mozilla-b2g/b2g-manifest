@@ -108,9 +108,9 @@
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib"/>
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.3_r2.1XXX"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform/frameworks/base" path="frameworks/base"/>
-  <project name="platform/frameworks/nativeXXX" path="frameworks/native"/>
+  <project name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
