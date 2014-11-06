@@ -1,11 +1,5 @@
 #!/bin/bash -euxv
 
-set +e
-ls /etc/ssl/certs/ca-certificates.crt
-ls /etc/pki/tls/certs/ca-bundle.crt
-ls /etc/ssl/ca-bundle.pem
-set -e
-
 echo "Installing mozharness..."
 B2GBUMPER_DIR="$(pwd)"
 cd ..
