@@ -6,8 +6,8 @@ config = {
         "hgtool.py": ["HGTOOL"],
         "gittool.py": ["GITTOOL"],
     },
-    'gecko_pull_url': 'https://hg.mozilla.org/users/pmoore_mozilla.com/gecko-b2gbumper-test/',
-    'gecko_push_url': 'ssh://hg.mozilla.org/users/pmoore_mozilla.com/gecko-b2gbumper-test/',
+    'gecko_pull_url': 'https://hg.mozilla.org/users/pmoore_mozilla.com/b2g-manifest-test/',
+    'gecko_push_url': 'ssh://hg.mozilla.org/users/pmoore_mozilla.com/b2g-manifest-test/',
     'gecko_local_dir': 'b2g-inbound',
 
     'manifests_repo': 'https://github.com/petemoore/b2g-manifest',
