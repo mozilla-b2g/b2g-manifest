@@ -3,8 +3,8 @@ config = {
     "exes": {
         # Get around the https warnings
         "hg": ['/usr/local/bin/hg', "--config", "web.cacerts=/Users/pmoore/ca-bundle.crt"],
-        "hgtool.py": ["/Users/pmoore/git/tools/buildfarm/utils/hgtool.py"],
-        "gittool.py": ["/Users/pmoore/git/tools/buildfarm/utils/gittool.py"],
+        "hgtool.py": ["HGTOOL"],
+        "gittool.py": ["GITTOOL"],
     },
     'gecko_pull_url': 'https://hg.mozilla.org/users/pmoore_mozilla.com/gecko-b2gbumper-test/',
     'gecko_push_url': 'ssh://hg.mozilla.org/users/pmoore_mozilla.com/gecko-b2gbumper-test/',
