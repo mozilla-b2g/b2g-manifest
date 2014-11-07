@@ -22,13 +22,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <!-- Gecko and gaia are currently frozen to these sha1's because
-       armv6 support is broken in gecko.  See
-       https://bugzilla.mozilla.org/show_bug.cgi?id=1085599 -->
-  <project path="gaia" name="gaia.git" remote="mozillaorg"
-           revision="457a54fc3200b80e4f5e1cd3acaa062309230732" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg"
-           revision="b7b2dc40de355add3634cc972fc31521a8daeed3" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
