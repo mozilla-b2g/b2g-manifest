@@ -27,7 +27,7 @@ git clone https://github.com/mozilla/build-mozharness mozharness
 echo "Installing tools..."
 git clone https://github.com/mozilla/build-tools tools
 
-# create a config file with the correct location for gittool.py
+# Create a config file with the correct location for gittool.py
 # to be added to list of configs to be passed to mozharness...
 
 GITTOOL_PATH="$(find "$(pwd)/tools" -name gittool.py)"
@@ -36,6 +36,7 @@ config = {
     "exes": {
         "gittool.py": ["${GITTOOL_PATH}"],
     },
+    "git_ref_cache": "$(pwd)/git_ref_cache.json",
 }
 EOF
 
@@ -45,7 +46,7 @@ ln -s "${B2G_MANIFEST_DIR}" build/manifests
 
 echo "Running b2g bumper..."
 for config_file in mozharness/configs/b2g_bumper/*.py; do
-    mozharness/scripts/b2g_bumper.py -c "${config_file}" -c "${B2G_MANIFEST_DIR}/travis-mozharness-config.py" --massage-manifests
+    mozharness/scripts/b2g_bumper.py -c "${config_file}" -c "${B2G_MANIFEST_DIR}/travis-mozharness-config.py" --import-git-ref-cache --massage-manifests --export-git-ref-cache
 done
 
 echo "All b2g bumper steps succeeded!"
