@@ -3,20 +3,21 @@
 
   <remote name="aosp"
           fetch="https://android.googlesource.com/" />
+  <remote name="b2gmozilla"
+          fetch="https://git.mozilla.org/b2g" />
   <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
+           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
-  <remote name="caf"
-          fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <default revision="b2g/ics_strawberry"
-           remote="caf"
-           sync-j="4" />
 
-  <!-- Gonk specific things and forks -->
+  <default revision="refs/tags/android-4.0.1_r1.1"
+           remote="aosp"
+           sync-j="8" />
+
+  <!-- B2G specific things. -->
   <project path="build" name="platform_build" remote="b2g" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -24,18 +25,19 @@
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
-  <!-- Stock Android things -->
+  <!-- Stock Android things (more or less) -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="b2g_ics_1.2" />
-  <project path="development" name="platform/development" revision="b2g_ics_1.2" />
+  <project path="bionic" name="platform_bionic"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
-  <project path="device/sample" name="device/sample" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
+  <!-- TODO: can we drop bluetooth -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -55,6 +57,7 @@
   <project path="external/gtest" name="platform/external/gtest" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/libgsm" name="platform/external/libgsm" />
@@ -63,8 +66,8 @@
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/mksh" name="platform/external/mksh" />
+  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -72,47 +75,47 @@
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
+  <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox" revision="ics_strawberry" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="platform/external/webp" />
-  <project path="external/webrtc" name="platform/external/webrtc" />
+  <project path="external/webrtc" name="platform_external_webrtc"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/hostap" name="platform/external/hostap" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="b2g_ics_1.2" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/base" name="platform_frameworks_base"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="b2g_ics_1.2" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="b2g_ics_1.2" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
+  <!-- TODO: can we drop this? -->
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" revision="b2g_ics_1.2" />
+  <project path="system/core" name="platform_system_core"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" revision="b2g_ics_1.2" />
-  <project path="system/vold" name="platform/system/vold" revision="b2g_ics_1.2" />
+  <project path="system/netd" name="platform_system_netd"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
+  <project path="system/vold" name="platform/system/vold" />
 
-  <!-- hamachi specific things -->
-  <project path="device/qcom/b2g_common" name="quic/lf/b2g/build" revision="ccd8b858242c099cb4bc725daf22896ab4a4b325" />
-  <project path="external/jsmin" name="quic/lf/b2g/external/jsmin" revision="cec896f0affaa0226c02605ad28d42df1bc0e393" />
-  <project path="device/qcom/common" name="device/qcom/common" />
-  <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" revision="b2g_ics_1.2" />
-  <project path="device/qcom/hamachi" name="android-device-hamachi" remote="b2g" revision="master" />
-  <project path="kernel" name="kernel/msm" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="b2g_ics_1.2" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="b2g_ics_1.2" />
+  <!-- RPi things -->
+  <project path="device/rpi/rpi" name="device-rpi" remote="b2g" revision="master" />
+  <project path="brcm_usrlib/dag" name="brcm_usrlib_dag"
+           remote="b2g" revision="bcm2835-4.0.1_r1.1" />
+  <project path="hardware/realtek" name="platform_hardware_realtek"
+           remote="b2g" revision="master" />
+  <!-- TODO: kernel? -->
 </manifest>

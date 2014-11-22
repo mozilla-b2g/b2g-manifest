@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-kk-aosp.xml"/>
+
+  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+
+  <!-- Nexus 4 specific things -->
+  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device_lge_mako-kernel" path="device/lge/mako-kernel" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960"/>
+  <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+
+</manifest>
