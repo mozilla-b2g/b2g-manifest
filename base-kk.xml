@@ -11,7 +11,7 @@
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
-  </project> 
+  </project>
   <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
   <project name="gecko" path="gecko" remote="mozillaorg" revision="master"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
@@ -121,8 +121,10 @@
   <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-4.4.2_r1"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
+  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="master"/>
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
+  <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="master"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>

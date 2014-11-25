@@ -124,8 +124,10 @@
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
+  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="master"/>
   <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="master"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
