@@ -117,6 +117,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools"/>
   <project path="system/bluetooth" name="platform/system/bluetooth"/>
+  <project path="system/bluetoothd" name="platform_system_bluetoothd" remote="b2g" revision="master"/>
+  <project path="system/libfdio" name="platform_system_libfdio" remote="b2g" revision="master"/>
   <project path="system/security" name="platform/system/security"/>
 
   <!-- Vixen things -->
