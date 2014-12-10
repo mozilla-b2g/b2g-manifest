@@ -3,6 +3,7 @@
 
   <include name="base-kk.xml"/>
 
+  <project name="platform/external/curl" path="external/curl"/>
   <project name="platform/external/icu4c" path="external/icu4c" />
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/frameworks/native"/>
