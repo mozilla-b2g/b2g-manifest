@@ -12,6 +12,8 @@
   <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="kitkat"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="t2m-flame-3.4-kk"/>
   <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one-v1.4"/>
+  <remove-project name="platform/bootable/recovery"/>
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-v2.0"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_kk_3.5"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one"/>
