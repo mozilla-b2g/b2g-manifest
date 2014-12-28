@@ -6,7 +6,7 @@
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
-           fetch="http://android.git.linaro.org/git-ro/" />
+           fetch="git://android.git.linaro.org/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" 
