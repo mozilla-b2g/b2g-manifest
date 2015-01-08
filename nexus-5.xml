@@ -15,15 +15,15 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project> 
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.1"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.1s"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1s"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
 
   <!-- Stock Android things -->
@@ -141,9 +141,9 @@
   <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 
   <!-- Nexus 5 specific things -->
-  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="v2.1"/>
+  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="v2.1s"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="72ffdf71c68a96309212eb13d63560d66db14c9e"/>
-  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="v2.1"/>
+  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="f37bd545063039e30a92f2550ae78c0e6e4e2d08"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="694cecf256122d0cb3b6a1a4efb4b5c7401db223"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="5eb5fb95dbc095c554686bdded852c46f1299e37"/>
@@ -158,6 +158,6 @@
   <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="ef6ad16db4e9f796da493edfba600b9073b72eeb"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="40d2275d17714cd524503b7080ff7bfcde134752"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="321468d7cf1fa5c56422243d857a73d4f23f7574"/>
-  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.1"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.1s"/>
 
 </manifest>

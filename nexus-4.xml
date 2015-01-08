@@ -13,15 +13,15 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1s"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1s"/>
 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="8a10d50e8caab8c18224588f0531f1c9363965b5"/>
@@ -78,7 +78,7 @@
   <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="7bd0b8345c96344746541e8f39375226bf580c41"/>
   <project name="platform/external/libogg" path="external/libogg" revision="6b0f05807a0e117bd774029a2b84e95ac1254353"/>
   <project name="platform/external/libpcap" path="external/libpcap" revision="7db9ecfdf0d68c5000dbbaf8d96b0ff11d98a7fd"/>
-  <project name="platform_external_libpng" path="external/libpng" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_libpng" path="external/libpng" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/libselinux" path="external/libselinux" revision="fafd3f40d5185ddb99a47fe951a60c8c5d9eece2"/>
   <project name="platform/external/libsepol" path="external/libsepol" revision="986b9a21757ebbd9c18a00a8b09d495b9681d6e1"/>
   <project name="platform/external/libvpx" path="external/libvpx" revision="1be94b794185aa20e0a66062c34691f31e37ec1f"/>
@@ -109,7 +109,7 @@
   <project name="platform/external/webrtc" path="external/webrtc" revision="1a1433203ddf6395516e065ada1dcdfc8bd5c654"/>
   <project name="platform/external/yaffs2" path="external/yaffs2" revision="d94a17182a88c2c2d865f50b728de8561d251efa"/>
   <project name="platform/external/zlib" path="external/zlib" revision="06608b270da9ec8a3e618f201d7356aad83f9ffe"/>
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="v2.1"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="v2.1s"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="8fafbc6692a52d1f1417693f24f6349b4de5afbd"/>
   <project name="platform/frameworks/native" path="frameworks/native" revision="c135c11c422c1570fdae2e19336f06f39e723c5a"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="bc06a1779be6919a581a938e1c3118b3a4ab4c18"/>
@@ -121,11 +121,11 @@
   <project name="platform/ndk" path="ndk" revision="7666b97bbaf1d645cdd6b4430a367b7a2bb53369"/>
   <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="f6ab40b3257abc07741188fd173ac392575cc8d2"/>
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="e52099755d0bd3a579130eefe8e58066cc6c0cb6"/>
-  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="v2.1"/>
+  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="v2.1s"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="842e33e43a55ea44833b9e23e4d180fa17c843af"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="5db24726f0f42124304195a6bdea129039eeeaeb"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="930ae098543881f47eac054677726ee4b998b2f8"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="v2.1"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="v2.1s"/>
   <project name="platform/system/extras" path="system/extras" revision="18c1180e848e7ab8691940481f5c1c8d22c37b3e"/>
   <project name="platform/system/media" path="system/media" revision="d90b836f66bf1d9627886c96f3a2d9c3007fbb80"/>
   <project name="platform/system/netd" path="system/netd" revision="56112dd7b811301b718d0643a82fd5cac9522073"/>
@@ -137,10 +137,10 @@
   <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Nexus 4 specific things -->
-  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="v2.1"/>
+  <project name="device-mako" path="device/lge/mako" remote="b2g" revision="v2.1s"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="3a9a17613cc685aa232432566ad6cc607eab4ec1"/>
   <project name="device/lge/mako-kernel" path="device/lge/mako-kernel" revision="d1729e53d71d711c8fde25eab8728ff2b9b4df0e"/>
-  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.1"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="7d33aaf740bbf6c7c6e9c34a92b371eda311b66b"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="0e56e450367cd802241b27164a2979188242b95f"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="0e1929fa3aa38bf9d40e9e953d619fab8164c82e"/>

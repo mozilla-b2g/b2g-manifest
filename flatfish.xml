@@ -13,12 +13,12 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.2.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
 
   <!-- Stock Android things -->
@@ -124,7 +124,7 @@
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="b83336c32fe9da4d657e7c2edee0195cf7900546"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="cb5a53832e8b2a39d97b011aa888ddc9980d4fa9"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="632d84a8ed1aea3ee85fb154f071f6cf587eafe1"/>
-  <project name="device-flatfish" path="device/allwinner/flatfish" remote="b2g" revision="v2.1"/>
+  <project name="device-flatfish" path="device/allwinner/flatfish" remote="b2g" revision="v2.1s"/>
 
   <!-- allwinner things -->
   <project name="flatfish-frameworks_native" path="frameworks/native" remote="allwinner" revision="16a53c0d0a025f87998e2de56ac345bd20ff084c"/>

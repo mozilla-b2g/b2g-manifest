@@ -13,15 +13,15 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1s"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1s"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1s"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1s"/>
 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="426233405bef3c7c825095ab14256c3773894b9b"/>
@@ -132,10 +132,10 @@
   <!-- Flame specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="e8a318f7690092e639ba88891606f4183e846d3f"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="878804e0becfe5635bb8ccbf2671333d546c6fb6"/>
-  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="v2.1"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="v2.1s"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="t2m-flame-3.4-jb"/>
-  <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="v2.1"/>
-  <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="v2.1"/>
+  <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="v2.1s"/>
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="81c4a859d75d413ad688067829d21b7ba9205f81"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="f0689ac1914cdbc59e53bdc9edd9013dc157c299"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="dd925f76e4f149c3d5571b80e12f7e24bbe89c59"/>
@@ -155,7 +155,7 @@
   <project name="platform/hardware/ril" path="hardware/ril" revision="c4e2ac95907a5519a0e09f01a0d8e27fec101af0"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="e1eb226fa3ad3874ea7b63c56a9dc7012d7ff3c2"/>
   <project name="platform/system/core" path="system/core" revision="adc485d8755af6a61641d197de7cfef667722580"/>
-  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.1"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.1s"/>
   <project name="platform/system/qcom" path="system/qcom" revision="1cdab258b15258b7f9657da70e6f06ebd5a2fc25"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="4ae5df252123591d5b941191790e7abed1bce5a4"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="ce18b47b4a4f93a581d672bbd5cb6d12fe796ca9"/>

@@ -15,15 +15,15 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.1"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.1s"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1s"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
 
   <!-- Stock Android things -->
@@ -148,6 +148,6 @@
   <project name="platform_hardware_ril" path="hardware/ril" remote="b2g" revision="b2g-kitkat"/>
   <project name="platform/development" path="development" revision="5968ff4e13e0d696ad8d972281fc27ae5a12829b"/>
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="darwinstreamingserver" path="system/darwinstreamingserver" remote="b2g" revision="v2.1"/>
+  <project name="darwinstreamingserver" path="system/darwinstreamingserver" remote="b2g" revision="v2.1s"/>
 
 </manifest>

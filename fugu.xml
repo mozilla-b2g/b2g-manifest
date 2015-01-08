@@ -10,16 +10,16 @@
   <default remote="sprd-aosp" revision="refs/tags/android-4.0.4_r2.1" sync-j="4"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="v2.1">
+  <project name="platform_build" path="build" remote="b2g" revision="v2.1s">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gaia.git" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gaia.git" path="gaia" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1s"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
 
   <!-- Stock Android things -->
@@ -27,7 +27,7 @@
   <project name="platform/bionic" path="bionic" revision="a52eea29b0b49d144816d0ccbd91e69d4050d3c9"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="425f8b5fadf5889834c5acd27d23c9e0b2129c28"/>
   <project name="device/common" path="device/common" revision="42b808b7e93d0619286ae8e59110b176b7732389"/>
-  <project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="73f76985f4e282410b18c9b520103cf0d818ccf2"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="a04843d5a0ae4a69e1125154e822b71ef42aa05b"/>
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="51e419d54a6bd5ea62fefda06742e3805bd2f90e"/>
@@ -36,8 +36,8 @@
   <project name="platform/external/dbus" path="external/dbus" revision="07274c4eed41f20d79265f049710b5bf08a3ef20"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="c543c0f363dee48a80ef17cff1d5b98fd426b01a"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="4e6e5ea3872facb3ad2d84784c108865cc8d536d"/>
-  <project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v2.1"/>
-  <project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v2.1s"/>
+  <project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="1057652276fce6a4a072e67e1c87be50de712860"/>
   <project name="platform/external/expat" path="external/expat" revision="728203a4d1c40de1a5fa5dcfa68057faaf3aac50"/>
   <project name="platform/external/fdlibm" path="external/fdlibm" revision="6d128260b94c366d4066c8452e6a8d23533db244"/>
@@ -57,11 +57,11 @@
   <project name="platform/external/libpng" path="external/libpng" revision="b994ba2e3e54734c34f624926e5fbfbca5735cde"/>
   <project name="platform/external/libvpx" path="external/libvpx" revision="7513a8f86d594184f9ac6250289d22817fe5d740"/>
   <project name="platform/external/mksh" path="external/mksh" revision="2aa9dc166c783c3afbaa90dd8b5b334031c4ad4d"/>
-  <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/openssl" path="external/openssl" revision="95c40b11e6d98ad944d64c38e30693ac025e2c88"/>
   <project name="platform/external/protobuf" path="external/protobuf" revision="046e97ace354aa350845465635e4816fb27c9994"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" revision="6282e9cd4c1eb3dc16bfb3592eff58fb6bd13022"/>
-  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v2.1"/>
+  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/skia" path="external/skia" revision="6a0439ca475ce56fabf41a7a0b7b878953ac1396"/>
   <project name="platform/external/sonivox" path="external/sonivox" revision="7839a53c7c252fc5f8b1ab685a00cfcf0c7d0c39"/>
   <project name="platform/external/speex" path="external/speex" revision="863479d6859d3cae16e76db5f97ea3e35b7f2bd8"/>
@@ -98,7 +98,7 @@
   <!-- sprd things -->
   <project name="kernel/common" path="kernel" remote="sprd-aosp" revision="fee86a9df3e89a1e0b5adadf422a4a5fd3e4f293"/>
   <project name="device-sprd" path="device/sprd" remote="sprd-github" revision="d490fab1367f982a63c3e711a9f6c2b8bea18371"/>
-  <project name="device-fugu" path="device/sprd/fugu" remote="b2g" revision="v2.1"/>
+  <project name="device-fugu" path="device/sprd/fugu" remote="b2g" revision="v2.1s"/>
   <project name="gaia/customize_apps" path="gaia/customize_apps" remote="sprd-b2g" revision="eec7ba32002a045719e1a376f63d82c5e993060d"/>
   <project name="gaia/local_mk" path="gaia/local_mk" remote="sprd-b2g" revision="5527e26e105a3f01a3f6920c7c353514d938f861"/>
   <project name="gaia/sprd_resource" path="gaia/sprd_resource" remote="sprd-b2g" revision="4e69436cfb153c017bd2062299ccd2d0dd5b926d"/>

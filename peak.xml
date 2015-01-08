@@ -12,13 +12,13 @@
   <project name="platform_build" path="build" remote="gp-b2g" revision="0f8c1f9fe35f9def70de9516466ecf43b6525243">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gaia" path="gaia" remote="b2g" revision="v2.1"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1s"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="v2.1s"/>
   <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="3b25cb1121b5a528ae7678ec75b52261c477c7ec"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
 
   <!-- Stock Android things -->
@@ -28,7 +28,7 @@
   <project name="platform/development" path="development" revision="39bccab69a794d79c01a6611930b7088b508b000"/>
   <project name="device/common" path="device/common" revision="7bb80921d5c5101cb7cbf31dca81969a6918ee5d"/>
   <project name="device/sample" path="device/sample" revision="5e7570b5addce5b20e7de6fd5fe0feb8c956f443"/>
-  <project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/apache-http" path="external/apache-http" remote="caf" revision="11fd255d5f15208d9497f5237a3a6371a44cf321"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="8237db62b572cebcdc66c9e103438cd077b0f5ad"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" remote="caf" revision="829dde192018a61c5326299c00112c580f0b4610"/>
@@ -38,8 +38,8 @@
   <project name="platform/external/dbus" path="external/dbus" revision="4dfb8ed1d6d424056e19910e89d8ee76ada44304"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="c3e61f52408219164c388025028e6f158d4545ca"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf" revision="c308d6c145f78f7896e94bab099705bf1b1a63a7"/>
-  <project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v2.1"/>
-  <project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v2.1s"/>
+  <project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="caf" revision="441821bfa7847fc0bde68681d5eaaf7a18ce3d99"/>
   <project name="platform/external/expat" path="external/expat" remote="caf" revision="ab0c74303f3f70d533c46d3acefb69a3e56f39c9"/>
   <project name="platform/external/fdlibm" path="external/fdlibm" remote="caf" revision="c604ba30db5a3854465f9f44a2a0d0e2268f5a97"/>
@@ -64,7 +64,7 @@
   <project name="platform/external/openssl" path="external/openssl" remote="caf" revision="33ab90d8ad4de347ce17f833f61a0b15131b8c2c"/>
   <project name="platform/external/protobuf" path="external/protobuf" remote="caf" revision="3aa04c74d10ad56329d1aec0666f0a97be3f36d5"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" remote="caf" revision="1c4df80993e3764b117fce861562c1e6b7195ad6"/>
-  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v2.1"/>
+  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/skia" path="external/skia" remote="caf" revision="e72e23af73efaa60269ed906df2814e8ed14f507"/>
   <project name="platform/external/sonivox" path="external/sonivox" remote="caf" revision="6da2addffa1701572cb812f233654c1fcab25468"/>
   <project name="platform/external/speex" path="external/speex" remote="caf" revision="ae8ced53ef07804b2da05b5fd4f17718079ccfbb"/>
@@ -75,7 +75,7 @@
   <project name="platform/external/tagsoup" path="external/tagsoup" remote="caf" revision="e30b725d3d8aeca8c582c0f7ce8a514b99d4146e"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa" remote="caf" revision="1d4b4a22017d1c124e6edc4a718bff32f85e0672"/>
   <project name="platform/external/tremolo" path="external/tremolo" remote="caf" revision="f297e2dfb317ae2cd8968eb9bb9e9454b6cd33db"/>
-  <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v2.1"/>
+  <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/webp" path="external/webp" remote="caf" revision="26eb2b66134e0541859077041237bef8d6c10ce1"/>
   <project name="platform/external/webrtc" path="external/webrtc" remote="caf" revision="7229ed0793ae9030d2739b677950863d40b206fb"/>
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" remote="caf" revision="187ff2b9f1344a8b8ab74ad6ac8d83456c1ae52c"/>

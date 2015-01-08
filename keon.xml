@@ -12,13 +12,13 @@
   <project name="platform_build" path="build" remote="gp-b2g" revision="0f8c1f9fe35f9def70de9516466ecf43b6525243">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1s"/>
   <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="c7b8e74c972990750fb40c33b646b50a08c9fd40"/>
   <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="3b25cb1121b5a528ae7678ec75b52261c477c7ec"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1s"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1s"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1s"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1s"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="7ddb07033043613303061416882c9b02ac3d76b6"/>
 
   <!-- Stock Android things -->
@@ -58,11 +58,11 @@
   <project name="platform/external/libvpx" path="external/libvpx" remote="caf" revision="6b86157a7fd1c6366a1c7ec10fa27f7deb8c80d3"/>
   <project name="platform/external/llvm" path="external/llvm" remote="caf" revision="50e6a7ced771b543f3341579d6e5ee23cf4f7634"/>
   <project name="platform/external/mksh" path="external/mksh" remote="caf" revision="fd21f47aec85691fe925838f331d0a6bb9d8dcf3"/>
-  <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="v2.1"/>
+  <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/openssl" path="external/openssl" remote="caf" revision="33ab90d8ad4de347ce17f833f61a0b15131b8c2c"/>
   <project name="platform/external/protobuf" path="external/protobuf" remote="caf" revision="3aa04c74d10ad56329d1aec0666f0a97be3f36d5"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" remote="caf" revision="1c4df80993e3764b117fce861562c1e6b7195ad6"/>
-  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v2.1"/>
+  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/skia" path="external/skia" remote="caf" revision="e72e23af73efaa60269ed906df2814e8ed14f507"/>
   <project name="platform/external/sonivox" path="external/sonivox" remote="caf" revision="6da2addffa1701572cb812f233654c1fcab25468"/>
   <project name="platform/external/speex" path="external/speex" remote="caf" revision="ae8ced53ef07804b2da05b5fd4f17718079ccfbb"/>
@@ -73,7 +73,7 @@
   <project name="platform/external/tagsoup" path="external/tagsoup" remote="caf" revision="e30b725d3d8aeca8c582c0f7ce8a514b99d4146e"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa" remote="caf" revision="1d4b4a22017d1c124e6edc4a718bff32f85e0672"/>
   <project name="platform/external/tremolo" path="external/tremolo" remote="caf" revision="f297e2dfb317ae2cd8968eb9bb9e9454b6cd33db"/>
-  <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v2.1"/>
+  <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v2.1s"/>
   <project name="platform/external/webp" path="external/webp" remote="caf" revision="26eb2b66134e0541859077041237bef8d6c10ce1"/>
   <project name="platform/external/webrtc" path="external/webrtc" remote="caf" revision="7229ed0793ae9030d2739b677950863d40b206fb"/>
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" remote="caf" revision="187ff2b9f1344a8b8ab74ad6ac8d83456c1ae52c"/>
@@ -99,7 +99,7 @@
 
   <!-- Keon specific things -->
   <project name="device_qcom_msm7627a" path="device/qcom/msm7627a" remote="gp-b2g" revision="a5ac5107a7bc4bdfddaf70034e9ef62929ad3649"/>
-  <project name="device-gp-keon" path="device/geeksphone/keon" remote="b2g" revision="v2.1"/>
+  <project name="device-gp-keon" path="device/geeksphone/keon" remote="b2g" revision="v2.1s"/>
   <project name="gp-keon-kernel" path="kernel" remote="gp-b2g" revision="2ca8e9deafa63b0f9a839860e9a3f835e6f5e3a6"/>
   <project name="external_compat-wireless" path="external/compat-wireless" remote="gp-b2g" revision="6510071f795957209a4a639c7d275e13b12b9227"/>
   <project name="frameworks_base" path="frameworks/base" remote="gp-b2g" revision="173f71f23cc9d8b4935968425bf186fcd8e66809"/>
