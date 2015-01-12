@@ -164,23 +164,23 @@
   <default remote="aosp" revision="refs/tags/android-5.0.0_r6" sync-j="4"/>
 
   <!-- Nexus 5 specific things -->
-  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="b2g-5.0.0_r6"/>
-  <project name="device/qcom/common" path="device/qcom/common" remote="caf" revision="l_master"/>
-  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="b2g-5.0.0_r6"/>
-  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
-  <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
-  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
-  <project name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74"/>
-  <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
-  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
-  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
-  <project name="platform/hardware/ril" path="hardware/ril"/>
-  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="ba62cc8b78c30d36181b8060a2016cc8da166236"/>
+  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="6f04de934511532992d897c92d738725c611eb31"/>
+  <project name="device/qcom/common" path="device/qcom/common" remote="caf" revision="3697e5acf25629b82658334e3f8ee3b6df5becab"/>
+  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="1268f640184df5ef759ada669f101a613451673a"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="0cb8574d338bf9f15b45ace7c08ad6deae9673ee"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="16abda2258c9aa1ed78f00bb0a9b2b43b4cb919e"/>
+  <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="3e856528121ae0af0ca26c97cb563160c7e16d85"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="d9e716e14e685f4fc124ae591a1cd0899bc4d7b5"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="505aa92674337b76ce7d038800f2a6d7dc340ac9"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="0a21f566d8c9b01b9754d639e13358bdcb6c7650"/>
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="028649652cd8f8f18cfb47d34bd78c435eb030ca"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="758a80fbb178b5663d4edbb46944b2dc553cb1ca"/>
+  <project name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" revision="aa0124820e22302149b1f2db603a9a72f1972527"/>
+  <project name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="37499eb89f31233135ca73b830b067ab24dc1be2"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="3724fd91ef5183684d97e2bf1d7ff948faabe090"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="2e54754cc0529d26ccac37ed291600048adbf6c0"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="71dfa8228ad0d6cdf6bac0426ac59404ab74b7f3"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.2"/>
 
 </manifest>
