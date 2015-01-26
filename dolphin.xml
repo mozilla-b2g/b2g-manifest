@@ -80,7 +80,6 @@
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/netcat" path="external/netcat"/>
-  <project name="platform/external/netperf" path="external/netperf"/>
   <project name="platform/external/openssl" path="external/openssl"/>
   <project name="platform/external/protobuf" path="external/protobuf"/>
   <project name="platform/external/safe-iop" path="external/safe-iop"/>
