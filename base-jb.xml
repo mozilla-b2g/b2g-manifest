@@ -85,7 +85,6 @@
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/netcat" path="external/netcat"/>
-  <project name="platform/external/netperf" path="external/netperf"/>
   <project name="platform/external/openssl" path="external/openssl"/>
   <project name="platform/external/ping" path="external/ping"/>
   <project name="platform/external/ping6" path="external/ping6"/>
