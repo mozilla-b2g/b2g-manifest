@@ -161,7 +161,7 @@
 
 
 
-  <default remote="aosp" revision="refs/tags/android-5.0.0_r6" sync-j="4"/>
+  <default remote="caf" revision="refs/tags/android-5.0.0_r6" sync-j="4"/>
 
   <!-- Nexus 5 specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="ba62cc8b78c30d36181b8060a2016cc8da166236"/>
