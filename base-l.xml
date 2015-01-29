@@ -58,7 +58,7 @@
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project name="platform/external/elfutils" path="external/elfutils"/>
   <project name="platform/external/expat" path="external/expat"/>
-  <project name="platform/external/f2fs-tools" path="external/f2fs-tools"/>
+  <project name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="fc24ac8347630a14d62ffafa93a27ec3b81cc44b"/>
   <project name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/flac" path="external/flac"/>
   <project name="platform/external/freetype" path="external/freetype"/>
