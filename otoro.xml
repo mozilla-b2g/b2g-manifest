@@ -33,7 +33,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g-4.0.4_r2.1" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
@@ -98,6 +98,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="aosp-new/master" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
