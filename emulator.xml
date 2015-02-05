@@ -27,7 +27,7 @@
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
+  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="b2g-ril_v7"/>
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
