@@ -155,7 +155,7 @@
   <remove-project name="platform/frameworks/wilhelm"/>
   <remove-project name="platform/system/core"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-5.0.0_r6"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="b2g" revision="df7e0cfbbc7e954ed26c73ac17832a5ff035f046"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="b2g" revision="b2g-5.0.0_r6"/>
   <project name="platform_frameworks_wilhelm" path="frameworks/wilhelm" remote="b2g" revision="v2.2"/>
   <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-5.0.0_r6"/>
 
@@ -165,9 +165,9 @@
 
   <!-- Nexus 5 specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="ba62cc8b78c30d36181b8060a2016cc8da166236"/>
-  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="6f04de934511532992d897c92d738725c611eb31"/>
+  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="b2g-5.0.0_r6"/>
   <project name="device/qcom/common" path="device/qcom/common" remote="caf" revision="3697e5acf25629b82658334e3f8ee3b6df5becab"/>
-  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="1268f640184df5ef759ada669f101a613451673a"/>
+  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="b2g-5.0.0_r6"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="0cb8574d338bf9f15b45ace7c08ad6deae9673ee"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="16abda2258c9aa1ed78f00bb0a9b2b43b4cb919e"/>
   <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="3e856528121ae0af0ca26c97cb563160c7e16d85"/>
