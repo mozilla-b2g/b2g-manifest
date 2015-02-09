@@ -16,9 +16,9 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="kernel" name="kernel/common" revision="6c6f012cea17fb8b3263605737816cf6663432f1" />
+  <project path="kernel" name="kernel/common" />
   <project path="system/core" name="platform/system/core" />
-  <project path="u-boot" name="u-boot" revision="cb37a7434073bb47c4c066f6922006442dcd8531" />
+  <project path="u-boot" name="u-boot" />
   <project path="vendor/sprd/gps" name="vendor/sprd/gps" />
   <project path="vendor/sprd/open-source" name="vendor/sprd/open-source"  />
   <project path="vendor/sprd/partner" name="vendor/sprd/partner"  />
