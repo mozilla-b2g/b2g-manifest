@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk-caf.xml"/>
+
+  <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
+
+  <!-- Platform common things -->
+  <project name="device-shinano-common" path="device/sony/shinano-common" remote="b2g" revision="master"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device/qcom/common" path="device/qcom/common" revision="b2g_kk_3.5"/>
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="shinano"/>
+  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_kk_3.5"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="kk_3.5"/>
+  <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="shinano"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="b2g_kk_3.5"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="b2g_kk_3.5"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="LNX.LF.3.5.2.2" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="b2g_kk_3.5"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="b2g_kk_3.5"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_kk_3.5"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth"/>
+  <project name="platform/system/core" path="system/core" revision="b2g_kk_3.5"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
+  <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="shinano"/>
+
+  <!-- Shinano specific things -->
+  <project name="device-shinano" path="device/sony/shinano" remote="b2g" revision="master"/>
+
+  <!-- Aries specific things -->
+  <project name="device-aries" path="device/sony/aries" remote="b2g" revision="master"/>
+
+</manifest>
