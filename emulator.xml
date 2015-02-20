@@ -88,7 +88,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="612ca9c6a55bd932c45f5b85ae932a1b712dd914" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="b2g" revision="b2g-4.0.4_r2.1" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
