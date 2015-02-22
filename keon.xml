@@ -88,7 +88,7 @@
   <project name="platform/prebuilt" path="prebuilt"/>
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="caf"  revision="aosp-new/master"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
-  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/core" path="system/core" remote="caf" revision="b2g_ics_1.2" />
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
