@@ -12,6 +12,7 @@
   <project name="platform_external_qemu" path="external/qemu" remote="b2g" revision="b2g-lollipop"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/development" path="development"/>
+  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-5.0.0_r6"/>
   <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-5.0.0_r6"/>
   <!-- hardware-ril for emulator-l need to be updated in bug-1113054 -->
   <project name="platform/hardware/ril" path="hardware/ril"/>
