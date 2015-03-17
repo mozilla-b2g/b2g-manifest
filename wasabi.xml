@@ -101,7 +101,7 @@
   <project name="device/qcom/common" path="device/qcom/common" revision="b9cdab8e1e1a215a8c65b8d5816f666bec7be205"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="58786a6a6f16384a7770f92081a5d8f7b1a067ae"/>
   <project name="device-wasabi" path="device/qcom/wasabi" remote="b2g" revision="v1.3"/>
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="v1.3"/>
+  <project name="kernel/msm" path="kernel"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="1acf77a75e30f3fc8b1eed2057c97adf1cb1633f"/>
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g" revision="v1.3"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="552c3ddb7174a01f3508782d40c4d8c845ab441a"/>
