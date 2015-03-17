@@ -20,7 +20,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
-  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="refs/tags/6.1" />
   
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
