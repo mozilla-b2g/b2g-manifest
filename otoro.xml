@@ -98,7 +98,7 @@
   <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" revision="d920a502ba17cf4d716f8b1a615f07e796b0501a"/>
   <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="7662275433fc0b1d8b035f03185b24b7ca965ab4" upstream="v1.0.1"/>
   <project path="device/qcom/unagi" name="android-device-unagi" remote="b2g" revision="6c014552d1b26bee611d9a9b23bd4cd014e392ee" upstream="v1.0.1"/>
-  <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="0a01247e4b0880f93424b27251cd3a1f6b19dbb2" upstream="v1.0.1"/>
+  <project path="kernel" name="kernel/msm"/>
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="1acf77a75e30f3fc8b1eed2057c97adf1cb1633f"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" upstream="v1.0.1" revision="6405d30f2fac7d8a1f2cb17b99fb7dd0a8bcfdac"/>
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="552c3ddb7174a01f3508782d40c4d8c845ab441a"/>
