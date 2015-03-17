@@ -98,7 +98,7 @@
   <project name="device/qcom/common" path="device/qcom/common" revision="f949ec96eab89361aa4d70c2cec9edcf9980cad3"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="d920a502ba17cf4d716f8b1a615f07e796b0501a"/>
   <project name="android-device-m4" path="device/lge/m4" remote="b2g" revision="v1.3t"/>
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="v1.3t"/>
+  <project name="kernel/msm" path="kernel"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="ef52334f63e309d5352b347eb5afbdfec9004030"/>
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="6d7e462598c60149111f14eadff3b5d7f4a7541d"/>
