@@ -102,7 +102,7 @@
   <project name="android-device-otoro" path="device/qcom/otoro" remote="b2g" revision="v2.0"/>
   <project name="android-device-unagi" path="device/qcom/unagi" remote="b2g" revision="v2.0"/>
   <project name="device-inari" path="device/qcom/inari" remote="b2g" revision="v2.0"/>
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="v2.0"/>
+  <project name="kernel/msm" path="kernel"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="1acf77a75e30f3fc8b1eed2057c97adf1cb1633f"/>
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g" revision="v2.0"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="552c3ddb7174a01f3508782d40c4d8c845ab441a"/>
