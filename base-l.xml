@@ -9,7 +9,7 @@
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-5.0.0_r6">
+  <project name="platform_build" path="build" remote="b2g" revision="b2g-5.1.0_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
@@ -133,9 +133,9 @@
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/ndk" path="ndk"/>
-  <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="b2g-5.0.0_r6"/>
+  <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="b2g-5.1.0_r1"/>
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-5.0.0_r6"/>
+  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-5.1.0_r1"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="master"/>
