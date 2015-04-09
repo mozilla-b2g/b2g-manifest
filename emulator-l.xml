@@ -7,12 +7,12 @@
 
   <!-- Emulator specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="device_generic_goldfish" path="device/generic/goldfish" remote="b2g" revision="b2g-5.1.0_r1"/>
+  <project name="device_generic_goldfish" path="device/generic/goldfish" remote="b2g" revision="b2g-5.0.0_r6"/>
   <!-- external/qemu for emulator-l need to be updated in bug-1121378 -->
   <project name="platform_external_qemu" path="external/qemu" remote="b2g" revision="b2g-lollipop"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/development" path="development"/>
-  <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-5.1.0_r1"/>
+  <project name="android-sdk" path="sdk" remote="b2g" revision="b2g-5.0.0_r6"/>
   <!-- hardware-ril for emulator-l need to be updated in bug-1113054 -->
   <project name="platform/hardware/ril" path="hardware/ril"/>
 
