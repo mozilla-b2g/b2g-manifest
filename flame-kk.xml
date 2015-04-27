@@ -150,7 +150,7 @@
   <!-- Flame specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="1bb28abbc215f45220620af5cd60a8ac1be93722"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="54c32c2ddef066fbdf611d29e4b7c47e0363599e"/>
-  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="ebad7da532429a6f5efadc00bf6ad8a41288a429"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="kitkat"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="t2m-flame-3.4-kk"/>
   <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one-v1.4"/>
   <remove-project name="platform/bootable/recovery"/>
