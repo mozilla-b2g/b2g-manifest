@@ -128,7 +128,7 @@
   <!-- Flame specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="b2g_kk_3.5"/>
-  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="kitkat"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="kitkat-v2"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="t2m-flame-3.4-kk"/>
   <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one-v1.4"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_kk_3.5"/>
