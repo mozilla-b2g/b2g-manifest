@@ -33,7 +33,7 @@
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
-  <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="shinano"/>
+  <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="1.88.57.4"/>
 
   <!-- Shinano specific things -->
   <project name="device-shinano" path="device/sony/shinano" remote="b2g" revision="master"/>
