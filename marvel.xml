@@ -103,10 +103,10 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
- -  <!-- Wildfire S things -->
--<project path="device/htc/marvel" name="b2g_device_htc_marvel" remote="izi501_b2g" revision="master" />	
--<project name="projects/marvel/android_vendor_qcom_msm7x27.git" path="vendor/qcom/msm7x27" remote="cryptomilk" revision="ics" />
--<project name="projects/marvel/android_vendor_htc_marvel.git" path="vendor/htc/marvel" remote="cryptomilk" revision="ics" />
--<project name="projects/marvel/android_device_htc_marvel-common.git" path="device/htc/marvel-common" remote="cryptomilk" revision="ics" />	
+   <!-- Wildfire S things -->
+ <project path="device/htc/marvel" name="b2g_device_htc_marvel" remote="izi501_b2g" revision="master" />	
+ <project name="projects/marvel/android_vendor_qcom_msm7x27.git" path="vendor/qcom/msm7x27" remote="cryptomilk" revision="ics" />
+ <project name="projects/marvel/android_vendor_htc_marvel.git" path="vendor/htc/marvel" remote="cryptomilk" revision="ics" />
+ <project name="projects/marvel/android_device_htc_marvel-common.git" path="device/htc/marvel-common" remote="cryptomilk" revision="ics" />	
 
 </manifest>
