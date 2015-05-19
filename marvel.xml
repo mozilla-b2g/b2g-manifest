@@ -110,7 +110,7 @@
    <!-- Wildfire S things -->
  <project path="b2g_device_htc_marvel.git" name="b2g_device_htc_marvel" remote="owl" revision="master" />	
  <project name="android_vendor_qcom_msm7x27.git" path="android_vendor_qcom_msm7x27" remote="arm" revision="cm-11.0" />
- <project name="android_vendor_htc_marvel.git" path="android_device_htc_marvel" remote="jdevs" revision="master"" />
+ <project name="android_vendor_htc_marvel.git" path="android_device_htc_marvel" remote="jdevs" revision="master"/>
  <project name="android_device_htc_msm7x27-common.git" path="android_device_htc_msm7x27-common" remote="arm" revision="cm-11.0" />	
 
 </manifest>
