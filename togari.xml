@@ -23,6 +23,8 @@
   <remote  name="feherneoh" 
            fetch="git://github.com/feherneoh" />
 
+  <remote  name="vic3t3chn0" 
+           fetch="git://github.com/vic3t3chn0" />
   <default revision="refs/heads/ics"
            remote="github"
            sync-c="true"
