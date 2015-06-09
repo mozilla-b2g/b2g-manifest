@@ -19,6 +19,9 @@
 
   <remote  name="mozillaorg" 
            fetch="https://git.mozilla.org/releases" />
+           
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
 
   <remote  name="feherneoh" 
            fetch="git://github.com/feherneoh" />
@@ -27,8 +30,7 @@
            fetch="git://github.com/vic3t3chn0" />
   <default revision="refs/tags/android-4.4.2_r2.0.1" 
           remote="linaro"
-           sync-c="true"
-           sync-j="4" />
+          sync-j="4" />
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="feherneoh" revision="b2g-cm9">
