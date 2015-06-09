@@ -110,12 +110,10 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Sony Xperia Z Ultra -->
-  <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
   <project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" />
   <project path="device/sony/rhine" name="device_sony_rhine_ubuntu" remote="vic3t3chn0" revision="master" />
-    <project path="device/sony/togari" name="device_sony_togari_ubuntu" remote="vic3t3chn0" revision="master" />
-    <project path="device/sony/common" name="device_sony_common_togari" remote="vic3t3chn0" revision="master" />
+  <project path="device/sony/togari" name="device_sony_togari_ubuntu" remote="vic3t3chn0" revision="master" />
+  <project path="device/sony/common" name="device_sony_common_togari" remote="vic3t3chn0" revision="master" />
   <project path="kernel/sony/togari" name="vic3t3chn0/kernel_amami" remote="github" revision="vic3t3chn0_ubuntu_patch" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-11.0"/>
-
 </manifest>
