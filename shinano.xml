@@ -5,6 +5,8 @@
 
   <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
 
+  <remote name="sonyxperiadev" fetch="git://github.com/sonyxperiadev/" />
+
   <!-- Platform common things -->
   <project name="device-shinano-common" path="device/sony/shinano-common" remote="b2g" revision="master"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
@@ -34,6 +36,9 @@
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
   <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="1.88.57.4"/>
+
+  <project name="platform/external/libxml2" path="external/libxml2"/>
+  <project name="thermanager" path="external/thermanager" remote="sonyxperiadev" revision="master" />
 
   <!-- Shinano specific things -->
   <project name="device-shinano" path="device/sony/shinano" remote="b2g" revision="master"/>
