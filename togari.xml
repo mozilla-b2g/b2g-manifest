@@ -25,7 +25,7 @@
 
   <remote  name="vic3t3chn0" 
            fetch="git://github.com/vic3t3chn0" />
-  <default revision="refs/tags/android-4.0.4_r2.1" 
+  <default revision="refs/tags/android-4.4.2_r2.0.1" 
           remote="github"
            sync-c="true"
            sync-j="4" />
