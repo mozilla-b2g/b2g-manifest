@@ -25,7 +25,8 @@
 
   <remote  name="vic3t3chn0" 
            fetch="git://github.com/vic3t3chn0" />
-  <default remote="github"
+  <default revision="refs/heads/cm-11.0" 
+          remote="github"
            sync-c="true"
            sync-j="4" />
 
