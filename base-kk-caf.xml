@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk.xml"/>
+
+  <project name="platform/external/curl" path="external/curl"/>
+  <project name="platform/external/icu4c" path="external/icu4c" />
+  <remove-project name="platform/frameworks/base"/>
+  <remove-project name="platform/frameworks/native"/>
+  <remove-project name="platform/hardware/libhardware"/>
+  <remove-project name="platform/external/bluetooth/bluedroid"/>
+  <remove-project name="platform/hardware/libhardware_legacy"/>
+  <remove-project name="platform/system/media"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="LNX.LF.3.5.2.1_1"/>
+  <project name="platform/system/media" path="system/media" revision="LNX.LF.3.5.2.1_1"/>
+
+</manifest>
