@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <manifest>
-    <remote fetch="https://android.googlesource.com/" name="aosp"/>
+  <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
-
+  <remote fetch="https://github.com/vic3t3chn0/" name="vic3t3chn0" />
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
