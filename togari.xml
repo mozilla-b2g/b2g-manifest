@@ -1,7 +1,8 @@
 <?xml version="1.0" ?>
 <manifest>
    <include name="base-kk-aosp.xml"/>
-
+  <remote  name="vic3t3chn0" 
+           fetch="git://github.com/vic3t3chn0" />
   <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
   
 
