@@ -10,9 +10,10 @@
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg"
-	  fetch="http://git.mozilla.org/" />
-<default  revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
-
+      fetch="https://git.mozilla.org" />
+  <default revision="refs/tags/android-4.0.4_r1.2"
+           remote="linaro"
+           sync-j="4" />
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="b2g" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
