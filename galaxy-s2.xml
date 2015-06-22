@@ -132,10 +132,14 @@
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
-
-  <!-- Galaxy S2 things -->
+  
+  <!-- Galaxy S2 and S3 things -->
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
+  <project path="device/samsung/i9300" name="Androguide/android_device_samsung_i9300" remote="github" revision="master"/>
+  <project path="device/samsung/smdk4412-common" name="Androguide/android_device_samsung_smdk4412-common" remote="github" revision="master"/>
+  <project path="vendor/samsung" name="Androguide/android_vendor_samsung" remote="github" revision="master" />
+  <project path="hardware/samsung" name="Ubuntu-i9100/android_hardware_samsung" remote="github" revision="phablet-10.1"/>
 
 </manifest>
