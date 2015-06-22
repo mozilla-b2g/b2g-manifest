@@ -11,7 +11,7 @@
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg"
       fetch="https://git.mozilla.org" />
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="linaro"
            sync-j="4" />
 
