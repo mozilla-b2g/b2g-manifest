@@ -94,7 +94,6 @@
   <project name="platform/external/scrypt" path="external/scrypt"/>
   <project name="platform/external/sepolicy" path="external/sepolicy"/>
   <project name="platform/external/sfntly" path="external/sfntly"/>
-  <project name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/sonivox" path="external/sonivox"/>
   <project name="platform/external/speex" path="external/speex"/>
   <project name="platform/external/sqlite" path="external/sqlite"/>
