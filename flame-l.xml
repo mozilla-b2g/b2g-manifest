@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-l.xml"/>
+  <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
+  <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
+
+  <!-- Flame L specific things -->
+  <remove-project name="platform/bootable/recovery"/>
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-lollipop"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device/qcom/common" path="device/qcom/common"/>
+  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
+  <project name="device/qcom/sepolicy" path="device/qcom/sepolicy"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="lollipop"/>
+  <remove-project name="platform/external/bluetooth/bluedroid"/>
+  <project name="platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="b2g" revision="foxfone-one-lollipop"/>
+  <project name="android_platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one-lollipop"/>
+  <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <remove-project name="platform/frameworks/av"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="LA.BF.1.1.2_rb1.12"/>
+  <remove-project name="platform/frameworks/base"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="b2g" revision="foxfone-one-lollipop"/>
+  <remove-project name="platform/frameworks/wilhelm"/>
+  <project name="platform_frameworks_wilhelm" path="frameworks/wilhelm" remote="b2g" revision="b2g-5.0.0_r6"/>
+  <remove-project name="platform/hardware/libhardware"/>
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="b2g" revision="foxfone-one-lollipop"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g" revision="foxfone-one-lollipop"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="android_platform_hardware_qcom_sensors" path="hardware/qcom/sensors" remote="t2m" revision="foxfone-one-lollipop"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="foxfone-one-lollipop"/>
+  <remove-project name="platform/system/core"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="foxfone-one-lollipop"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
+  <project name="android_platform_vendor_qcom-opensource_wlan_prima" path="vendor/qcom/opensource/wlan/prima" remote="t2m" revision="foxfone-one-lollipop"/>
+
+</manifest>
