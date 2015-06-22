@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <manifest>
-
+  <include name="base-kk-aosp.xml" />
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
@@ -8,7 +8,6 @@
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
-	<include name="base-kk-aosp.xml"/>
 
   <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
   
