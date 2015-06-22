@@ -28,8 +28,7 @@
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="valgrind" path="external/valgrind" remote="b2g" revision="fxos"/>
   <project name="vex" path="external/VEX" remote="b2g" revision="fxos"/>
-  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
-
+ 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7"/>
   <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7"/>
