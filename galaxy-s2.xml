@@ -5,7 +5,6 @@
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/vic3t3chn0" name="vic3t3chn0" />
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
