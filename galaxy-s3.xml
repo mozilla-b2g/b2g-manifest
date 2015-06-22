@@ -8,7 +8,10 @@
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+	<include name="base-kk-aosp.xml"/>
 
+  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+  
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
