@@ -5,6 +5,8 @@
   <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
 
   <!-- Flame L specific things -->
+  <remove-project name="platform_build"/>
+  <project name="platform_build" path="build" remote="b2g" revision="b2g-5.0.0_r6"/>
   <remove-project name="platform/bootable/recovery"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-lollipop"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
@@ -35,6 +37,10 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="foxfone-one-lollipop"/>
+  <remove-project name="platform_prebuilts_misc"/>
+  <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="b2g-5.0.0_r6"/>
+  <remove-project name="platform_prebuilts_qemu-kernel"/>
+  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-5.0.0_r6"/>
   <remove-project name="platform/system/core"/>
   <project name="platform_system_core" path="system/core" remote="b2g" revision="foxfone-one-lollipop"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
