@@ -27,12 +27,10 @@
   -->
 
   <!-- Shinano/Aries specific things -->
-  <remove-project name="platform/hardware/libhardware"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-shinano" path="device/sony/shinano" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="mkqcdtbootimg" path="vendor/sony/system/mkqcdtbootimg" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="b2g" revision="sony-aosp-l"/>
   <project name="thermanager" path="vendor/sony/system/thermanager" groups="device" remote="b2g" revision="sony-aosp-l"/>
 
   <!-- Aries specific things -->
