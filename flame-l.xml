@@ -6,7 +6,9 @@
 
   <!-- Flame L specific things -->
   <remove-project name="platform_build"/>
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-5.0.0_r6"/>
+  <project path="build" name="platform_build" remote="b2g" revision="b2g-5.0.0_r6">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <remove-project name="platform/bootable/recovery"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-lollipop"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
