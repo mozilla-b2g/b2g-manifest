@@ -24,7 +24,7 @@
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
-  <project name="platform/bionic" path="bionic" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
+  <project name="platform/bionic" path="bionic" remote="b2g" revision="b2g-4.0.4_r2.1"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" />
   <project name="platform/development" path="development"/>
  <project name="device/common" path="device/common"/>
