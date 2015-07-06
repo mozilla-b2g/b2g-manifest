@@ -24,7 +24,7 @@
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
-  <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g_ics_strawberry"/>
+  <project name="platform_bionic" path="bionic" remote="b2g" revision="b2g_ics_strawberry" />
   <project name="platform/bootable/recovery" path="bootable/recovery" />
   <project name="platform/development" path="development"/>
  <project name="device/common" path="device/common"/>
@@ -86,6 +86,7 @@
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/ndk" path="ndk" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/prebuilt" path="prebuilt"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="caf" revision="aosp-new/master"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
   <project name="platform/system/core" path="system/core"/>
   <project name="platform/system/extras" path="system/extras"/>
