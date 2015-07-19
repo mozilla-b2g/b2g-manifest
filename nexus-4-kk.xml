@@ -140,7 +140,7 @@
   <!-- Nexus 4 specific things -->
   <project name="device-mako" path="device/lge/mako" remote="b2g" revision="b2g-4.4.2_r1"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="72ffdf71c68a96309212eb13d63560d66db14c9e"/>
-  <project name="device_lge_mako-kernel" path="device/lge/mako-kernel" remote="b2g" revision="v2.0"/>
+  <project name="device_lge_mako-kernel" path="device/lge/mako-kernel" remote="b2g" revision="b2g-4.4.2_r1"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="f37bd545063039e30a92f2550ae78c0e6e4e2d08"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="694cecf256122d0cb3b6a1a4efb4b5c7401db223"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="5eb5fb95dbc095c554686bdded852c46f1299e37"/>
