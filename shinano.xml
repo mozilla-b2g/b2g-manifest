@@ -36,7 +36,7 @@
   <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="1.88.57.4"/>
 
   <!-- Shinano specific things -->
-  <project name="device-shinano" path="device/sony/shinano" remote="b2g" revision="master"/>
+  <project name="device-shinano" path="device/sony/leo" remote="b2g" revision="master"/>
 
   <!-- Aries specific things -->
   <project name="device-aries" path="device/sony/aries" remote="b2g" revision="master"/>
