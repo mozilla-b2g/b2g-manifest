@@ -20,7 +20,7 @@
   <project path="system/core" name="platform/system/core" />
   <project path="u-boot" name="u-boot" />
   <project path="vendor/sprd/gps" name="vendor/sprd/gps" />
-  <project path="vendor/sprd/open-source" name="vendor/sprd/open-source" revision="e503b1d14d7fdee532b8f391407299da193c1b2d" />
+  <project path="vendor/sprd/open-source" name="vendor/sprd/open-source"  />
   <project path="vendor/sprd/partner" name="vendor/sprd/partner"  />
   <project path="vendor/sprd/proprietories" name="vendor/sprd/proprietories"  />
 
