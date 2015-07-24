@@ -39,4 +39,7 @@
   <!-- Shinano specific things -->
   <project name="device-sony-leo" path="device/sony/leo" groups="device" remote="b2g" revision="sony-aosp-l"/>
 
+  <!-- Scorpion -->
+  <project name="device-sony-scorpion" path="device/sony/scorpion" groups="device" remote="b2g" revision="sony-aosp-l"/>
+
 </manifest>
