@@ -14,7 +14,6 @@
   <project name="init_sh" path="external/init_sh" remote="b2g" revision="master"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="kk_3.5"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
-  <project name="timekeep" path="external/timekeep" remote="b2g" revision="master"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="shinano"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="b2g_kk_3.5"/>
@@ -28,6 +27,7 @@
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="b2g_kk_3.5"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_kk_3.5"/>
+  <project name="timekeep" path="hardware/sony/timekeep" remote="b2g" revision="master"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
   <project name="platform/system/core" path="system/core" revision="b2g_kk_3.5"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
