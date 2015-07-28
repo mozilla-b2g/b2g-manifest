@@ -23,7 +23,7 @@
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" remote="caf" revision="173f6deefbdc7e8aff79ce88010e4f0b6124c016"/>
-  <project name="platform/bionic" path="bionic" remote="b2g" revision="b2g_ics_strawberry"/>
+  <project name="platform_bionic" path="bionic" remote="b2g" revision="b2g_ics_strawberry"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="0bd2e99de079cdc419e372b58e22e1e78bf9442a"/>
   <project name="platform/development" path="development" revision="39bccab69a794d79c01a6611930b7088b508b000"/>
   <project name="device/common" path="device/common" revision="7bb80921d5c5101cb7cbf31dca81969a6918ee5d"/>
