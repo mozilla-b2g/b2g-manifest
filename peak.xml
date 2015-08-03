@@ -13,7 +13,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.2"/>
-  <project name="gaia" path="gaia" remote="b2g" revision="v2.2"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="v2.2r"/>
   <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="c8045cb88fe569d0731ba849cf2689bb159b159f"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.2"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.2"/>
