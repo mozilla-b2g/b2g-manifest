@@ -15,6 +15,8 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g" revision="b2g-5.1.0_r1"/>
+  <remove-project name="platform/hardware/libhardware"/>
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
 
   <!-- Yukon platform specific things -->
