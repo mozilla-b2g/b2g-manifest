@@ -3,7 +3,7 @@
 
   <include name="base-l-aosp.xml"/>
 
-  <default remote="caf" revision="refs/tags/android-5.1.1_r3" sync-j="4"/>
+  <default remote="caf" revision="refs/tags/android-5.1.1_r8" sync-j="4"/>
 
   <!-- Platform common things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
