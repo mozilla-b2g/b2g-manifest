@@ -7,9 +7,11 @@
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/frameworks/wilhelm"/>
   <remove-project name="platform/system/core"/>
+  <remove-project name="platform/external/sepolicy"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-5.1.0_r1"/>
   <project name="platform_frameworks_base" path="frameworks/base" remote="b2g" revision="b2g-5.1.0_r1"/>
   <project name="platform_frameworks_wilhelm" path="frameworks/wilhelm" remote="b2g" revision="b2g-5.1.0_r1"/>
   <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-5.1.0_r1"/>
+  <project name="platform_external_sepolicy" path="external/sepolicy" remote="b2g" revision="b2g-5.1.0_r1"/>
 
 </manifest>
