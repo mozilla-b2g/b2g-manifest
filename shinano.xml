@@ -12,7 +12,7 @@
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="shinano"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="b2g_kk_3.5"/>
   <project name="init_sh" path="external/init_sh" remote="b2g" revision="master"/>
-  <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="kk_3.5"/>
+  <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="shinano"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="shinano"/>
