@@ -9,7 +9,7 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
-  <remote name="mozillaorg" 
+  <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
@@ -27,6 +27,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="refs/tags/6.1" />
+  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />

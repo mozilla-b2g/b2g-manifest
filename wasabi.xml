@@ -29,6 +29,7 @@
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="refs/tags/6.1" />
   <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
+  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
