@@ -29,6 +29,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
+  <project path="prebuilts/qemu-kernel" name="fake-qemu-kernel" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin"/>
@@ -117,7 +118,6 @@
   <project path="ndk" name="platform/ndk"/>
   <project path="prebuilts/misc" name="platform/prebuilts/misc"/>
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk"/>
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"/>
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools"/>
   <project path="system/bluetooth" name="platform/system/bluetooth"/>

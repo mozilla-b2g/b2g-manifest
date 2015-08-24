@@ -42,8 +42,6 @@
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="foxfone-one-lollipop"/>
   <remove-project name="platform_prebuilts_misc"/>
   <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="b2g-5.0.0_r6"/>
-  <remove-project name="platform_prebuilts_qemu-kernel"/>
-  <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-5.0.0_r6"/>
   <remove-project name="platform/system/core"/>
   <project name="platform_system_core" path="system/core" remote="b2g" revision="foxfone-one-lollipop"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
