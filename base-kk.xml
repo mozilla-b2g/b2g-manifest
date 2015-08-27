@@ -79,7 +79,7 @@
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
-  <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
+  <project name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="caf" revision="refs/tags/android-5.1.1_r3"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/netcat" path="external/netcat"/>
   <project name="platform/external/openssl" path="external/openssl"/>
