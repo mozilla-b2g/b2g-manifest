@@ -22,6 +22,7 @@
   <!-- Yukon platform specific things -->
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
+  <project name="macaddrsetup" path="hardware/sony/macaddrsetup" remote="b2g" revision="master"/>
   <project name="mkqcdtbootimg" path="hardware/sony/mkqcdtbootimg" remote="b2g" revision="master"/>
   <project name="thermanager" path="hardware/sony/thermanager" remote="b2g" revision="master"/>
   <project name="timekeep" path="hardware/sony/timekeep" remote="b2g" revision="master"/>
