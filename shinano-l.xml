@@ -32,6 +32,7 @@
   <project name="device-sony-shinano" path="device/sony/shinano" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
+  <project name="macaddrsetup" path="hardware/sony/macaddrsetup" groups="device" remote="b2g" revision="master"/>
   <project name="mkqcdtbootimg" path="hardware/sony/mkqcdtbootimg" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="thermanager" path="hardware/sony/thermanager" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="timekeep" path="hardware/sony/timekeep" groups="device" remote="b2g" revision="master"/>
