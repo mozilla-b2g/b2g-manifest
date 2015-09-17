@@ -8,6 +8,7 @@
   <!-- Platform common things -->
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" remote="caf" revision="aosp-new/l-preview"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
@@ -15,20 +16,32 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g" revision="b2g-5.1.0_r1"/>
+  <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="b2g" revision="b2g-5.1.1_r3"/>
   <remove-project name="platform/hardware/libhardware"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <!--
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="l_LNX.LA.3.6"/>
+  <project name="init_sh" path="external/init_sh" remote="b2g" revision="master"/>
+  -->
+
+  <!-- Sony platform specific things -->
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="sony-aosp-l"/>
+  <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
+  <project name="macaddrsetup" path="hardware/sony/macaddrsetup" groups="device" remote="b2g" revision="master"/>
+  <project name="mkqcdtbootimg" path="hardware/sony/mkqcdtbootimg" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="thermanager" path="hardware/sony/thermanager" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="timekeep" path="hardware/sony/timekeep" groups="device" remote="b2g" revision="master"/>
+
+  <!-- Shinano platform specific things -->
+  <project name="device-sony-shinano" path="device/sony/shinano" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-aries" path="device/sony/aries" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-leo" path="device/sony/leo" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-scorpion" path="device/sony/scorpion" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-sirius" path="device/sony/sirius" groups="device" remote="b2g" revision="sony-aosp-l"/>
 
   <!-- Yukon platform specific things -->
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
-  <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
-  <project name="macaddrsetup" path="hardware/sony/macaddrsetup" remote="b2g" revision="master"/>
-  <project name="mkqcdtbootimg" path="hardware/sony/mkqcdtbootimg" remote="b2g" revision="master"/>
-  <project name="thermanager" path="hardware/sony/thermanager" remote="b2g" revision="master"/>
-  <project name="timekeep" path="hardware/sony/timekeep" remote="b2g" revision="master"/>
-
-  <!-- Device specific things -->
-  <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-yukon" path="device/sony/yukon" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-tianchi" path="device/sony/tianchi" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-flamingo" path="device/sony/flamingo" remote="b2g" revision="sony-aosp-l"/>
