@@ -22,13 +22,13 @@
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <!--
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="l_LNX.LA.3.6"/>
-  <project name="init_sh" path="external/init_sh" remote="b2g" revision="master"/>
   -->
 
   <!-- Sony platform specific things -->
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
+  <project name="init_sh" path="hardware/sony/init_sh" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="macaddrsetup" path="hardware/sony/macaddrsetup" groups="device" remote="b2g" revision="master"/>
   <project name="mkqcdtbootimg" path="hardware/sony/mkqcdtbootimg" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="thermanager" path="hardware/sony/thermanager" groups="device" remote="b2g" revision="sony-aosp-l"/>
