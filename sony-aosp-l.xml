@@ -20,6 +20,7 @@
   <remove-project name="platform/hardware/libhardware"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="b2g" revision="sony-aosp-l"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project name="init_sh" path="external/init_sh" remote="b2g" revision="sony-aosp-l"/>
   <!--
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="l_LNX.LA.3.6"/>
   -->
