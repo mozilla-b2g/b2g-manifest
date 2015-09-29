@@ -101,6 +101,9 @@
 
   <!-- Galaxy S2 things -->
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
+  <project path="device/samsung/d710" name="EpicB2G/android_device_samsung_d710" remote="github" revision="ics" />
+  <project path="kernel/samsung/smdk4210" name="dastin1015/android_kernel_samsung_d710" remote="github" revision="ics" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
