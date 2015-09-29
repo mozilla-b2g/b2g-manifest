@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <remote name="CyanogenMod"
+          fetch="git://github.com/CyanogenMod/"
+          revision="stable/cm-12.1-YOG4P" />
+
+  <remote name="cmb2g"
+          fetch="git://github.com/cm-b2g/"
+          revision="recovery" />
+
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/libselinux" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform_system_core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/vold" />
+
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cmb2g" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="CyanogenMod" />
+
+  <project path="external/busybox" name="android_external_busybox" remote="b2g" revision="cm-12.1" />
+  <project path="external/exfat" name="android_external_exfat" remote="CyanogenMod" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="CyanogenMod" />
+  <project path="external/fuse" name="android_external_fuse" remote="CyanogenMod" />
+  <project path="external/libselinux" name="platform_external_libselinux" remote="cmb2g" />
+  <project path="external/libtar" name="android_external_libtar" remote="CyanogenMod" />
+  <project path="external/lz4" name="android_external_lz4" remote="CyanogenMod" />
+  <project path="external/lzma" name="android_external_lzma" remote="CyanogenMod" />
+  <project path="external/pigz" name="android_external_pigz" remote="CyanogenMod" />
+  <project path="external/zlib" name="android_external_zlib" remote="CyanogenMod" />
+
+  <project path="system/core" name="platform_system_core" remote="cmb2g" />
+  <project path="system/extras" name="platform_system_extras" remote="cmb2g" />
+  <project path="system/vold" name="android_system_vold" remote="CyanogenMod" />
+
+</manifest>
