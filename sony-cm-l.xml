@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-l-cm.xml"/>
+
+  <remove-project name="android_external_busybox" />
+  <project name="android_external_busybox" path="external/busybox" remote="b2g" revision="sony-aosp-l" />
+
+  <remove-project name="android_external_libnfc-nci" />
+  <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="b2g" revision="sony-aosp-l"/>
+
+  <!-- Sony platform specific things -->
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
+  <project name="init_sh" path="hardware/sony/init_sh" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="macaddrsetup" path="hardware/sony/macaddrsetup" groups="device" remote="b2g" revision="master"/>
+  <project name="mkqcdtbootimg" path="hardware/sony/mkqcdtbootimg" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="thermanager" path="hardware/sony/thermanager" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="timekeep" path="hardware/sony/timekeep" groups="device" remote="b2g" revision="master"/>
+
+  <!-- Shinano platform specific things -->
+  <project name="device-sony-shinano" path="device/sony/shinano" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-aries" path="device/sony/aries" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-leo" path="device/sony/leo" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-scorpion" path="device/sony/scorpion" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-sirius" path="device/sony/sirius" groups="device" remote="b2g" revision="sony-aosp-l"/>
+
+  <!-- Rhine platform specific things -->
+  <project name="device-sony-rhine" path="device/sony/rhine" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-honami" path="device/sony/honami" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-amami" path="device/sony/amami" groups="device" remote="b2g" revision="sony-aosp-l"/>
+
+  <!-- Yukon platform specific things -->
+  <project name="device-sony-yukon" path="device/sony/yukon" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-tianchi" path="device/sony/tianchi" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-eagle" path="device/sony/eagle" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-flamingo" path="device/sony/flamingo" groups="device" remote="b2g" revision="sony-aosp-l"/>
+
+</manifest>
