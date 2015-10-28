@@ -14,6 +14,8 @@
   <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one-v1.4"/>
   <remove-project name="platform/bootable/recovery"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-v2.0"/>
+  <remove-project name="platform/bionic"/>
+  <project name="platform_bionic" path="bionic" remote="b2g" revision="b2g-4.4.2_r1" />
   <project name="platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="b2g" revision="b2g_kk_3.5"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
