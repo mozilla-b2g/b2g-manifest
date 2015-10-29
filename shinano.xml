@@ -11,6 +11,8 @@
   <project name="device/qcom/common" path="device/qcom/common" revision="b2g_kk_3.5"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="shinano"/>
   <project name="init_sh" path="external/init_sh" remote="b2g" revision="master"/>
+  <remove-project name="platform/bionic"/>
+  <project name="platform_bionic" path="bionic" remote="b2g" revision="b2g-4.4.2_r1" />
   <project name="platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="b2g" revision="b2g_kk_3.5"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="kk_3.5"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
