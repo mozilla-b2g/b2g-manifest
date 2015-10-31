@@ -42,6 +42,11 @@
   <project name="device-sony-scorpion" path="device/sony/scorpion" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-sirius" path="device/sony/sirius" groups="device" remote="b2g" revision="sony-aosp-l"/>
 
+  <!-- Rhine platform specific things -->
+  <project name="device-sony-rhine" path="device/sony/rhine" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-honami" path="device/sony/honami" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-amami" path="device/sony/amami" groups="device" remote="b2g" revision="sony-aosp-l"/>
+
   <!-- Yukon platform specific things -->
   <project name="device-sony-yukon" path="device/sony/yukon" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-tianchi" path="device/sony/tianchi" remote="b2g" revision="sony-aosp-l"/>
