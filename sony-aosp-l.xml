@@ -5,6 +5,8 @@
 
   <default remote="caf" revision="refs/tags/android-5.1.1_r3" sync-j="4"/>
 
+  <remote fetch="git://github.com/nicodel/" name="nicodel"/>
+
   <!-- Platform common things -->
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
@@ -47,5 +49,6 @@
   <project name="device-sony-tianchi" path="device/sony/tianchi" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-eagle" path="device/sony/eagle" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-flamingo" path="device/sony/flamingo" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-seagull" path="device/sony/seagull" remote="nicodel" revision="sony-aosp-l"/>
 
 </manifest>
