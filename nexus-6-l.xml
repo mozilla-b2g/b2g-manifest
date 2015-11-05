@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-l-aosp.xml"/>
+
+  <default remote="aosp" revision="refs/tags/android-5.1.1_r14" sync-j="4"/>
+
+  <!-- Nexus 6 specific things -->
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device-shamu" path="device/moto/shamu" remote="b2g" revision="b2g-5.1.1_r14"/>
+  <project name="device-shamu-kernel" path="device/moto/shamu-kernel" remote="b2g" revision="b2g-5.1.1_r14"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="b2g" revision="b2g-5.1.0_r1"/>
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84"/>
+  <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+
+</manifest>
