@@ -12,17 +12,17 @@
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
-  <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="master"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
-  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
-  <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
-  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.5"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.5" />
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.5"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.5"/>
+  <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="v2.5"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.5"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.5"/>
+  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="1837d370a964a9719160c79155a07980f2ea4bdf" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="v2.5" />
+  <project path="external/VEX" name="vex" remote="b2g" revision="v2.5" />
+  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="v2.5"/>
 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1"/>
@@ -126,10 +126,10 @@
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
-  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="master"/>
+  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="v2.5"/>
   <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform/system/extras" path="system/extras"/>
-  <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="master"/>
+  <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="v2.5"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
