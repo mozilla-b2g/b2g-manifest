@@ -23,7 +23,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
+  <project path="development" name="android-development" remote="b2g" revision="b2g-ics-plus-aosp" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
@@ -31,12 +31,12 @@
   <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="b2g-ics"/>
-  <project path="frameworks/base" name="platform_frameworks_base" remote="b2g" revision="b2g-4.0.4_r2.1-emu-fix" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="b2g" revision="b2g-ics" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="hardware/libhardware_moz" name="platform_hardware_libhardware_moz" remote="b2g" revision="master"/>
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="b2g-ril_v7"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="sdk" name="android-sdk" remote="b2g" revision="emu-fix" />
+  <project path="sdk" name="android-sdk" remote="b2g" revision="b2g-ics" />
   <project path="system/darwinstreamingserver" name="darwinstreamingserver" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->
@@ -110,7 +110,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator-specific things -->
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="master" />
-  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="master" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="b2g-4.0.4_r2.1" />
+  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="b2g-ics" />
 
 </manifest>
