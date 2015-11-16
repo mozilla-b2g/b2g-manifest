@@ -27,6 +27,13 @@ git clone https://github.com/mozilla/build-mozharness mozharness
 echo "Installing tools..."
 git clone https://github.com/mozilla/build-tools tools
 
+echo "Installing repo..."
+curl https://storage.googleapis.com/git-repo-downloads/repo > ./repo && chmod a+x ./repo
+echo "Configuring Git for Repo ..."
+git config --global user.email "mozilla-b2g@github.com"
+git config --global user.name "Mozilla B2G"
+git config --global color.ui false
+
 # Create a config file with the correct location for gittool.py
 # to be added to list of configs to be passed to mozharness...
 
@@ -43,6 +50,26 @@ EOF
 # rather than use mozharness to checkout b2g-manifest, use the one checked out by travis already...
 mkdir build
 ln -s "${B2G_MANIFEST_DIR}" build/manifests
+
+echo "Running repo init..."
+
+if [ "${TRAVIS_PULL_REQUEST}" != "false" ]; then
+    ORIGIN_REPO=$(git --git-dir ./b2g-manifest/.git/ config --get remote.origin.url)
+    for xml in $(find ./b2g-manifest -type f -name "*.xml" | grep -v -E "base-.*\.xml");
+    do
+        xml_file=$(basename "${xml}")
+        echo "Checking XML: ${xml_file}"
+        rm -rf repodir && mkdir repodir
+        pushd repodir
+            ../repo init --no-repo-verify \
+                         -u ${ORIGIN_REPO} \
+                         -b refs/pull/${TRAVIS_PULL_REQUEST}/head \
+                         -m ${xml_file}
+        popd
+    done;
+else
+    echo "Not a PR: ${TRAVIS_PULL_REQUEST}"
+fi;
 
 echo "Running b2g bumper..."
 
