@@ -4,3 +4,5 @@ python:
 
 script:
   - bash ./run_travis_tests.sh
+
+sudo: false
