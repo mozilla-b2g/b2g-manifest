@@ -73,7 +73,7 @@ fi;
 
 echo "Running b2g bumper..."
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 # !!!!! config_file is specific to the branch of b2g-manifest you are on !!!!!
 # !!!!!
 # !!!!! to check you have specified correct file(s), check the `manifests_revision` property
@@ -83,7 +83,7 @@ echo "Running b2g bumper..."
 # !!!!!
 # !!!!! See https://bugzilla.mozilla.org/show_bug.cgi?id=1153802 for more details
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-for config_file in mozharness/configs/b2g_bumper/master.py; do
+for config_file in mozharness/configs/b2g_bumper/b2g-ota.py; do
     mozharness/scripts/b2g_bumper.py -c "${config_file}" -c "${B2G_MANIFEST_DIR}/travis-mozharness-config.py" --import-git-ref-cache --massage-manifests --export-git-ref-cache
 done
 
