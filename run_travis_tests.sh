@@ -73,7 +73,7 @@ fi;
 
 echo "Running b2g bumper..."
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 # !!!!! config_file is specific to the branch of b2g-manifest you are on !!!!!
 # !!!!!
 # !!!!! to check you have specified correct file(s), check the `manifests_revision` property
