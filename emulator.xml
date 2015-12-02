@@ -14,7 +14,7 @@
            sync-j="4" />
 
   <!-- Gecko and Gaia -->
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="b2g-ota" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
 
   <!-- Gonk-specific things and forks -->
