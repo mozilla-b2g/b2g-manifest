@@ -52,5 +52,6 @@
   <project name="device-sony-tianchi" path="device/sony/tianchi" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-eagle" path="device/sony/eagle" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-flamingo" path="device/sony/flamingo" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-seagull" path="device/sony/seagull" remote="b2g" revision="sony-aosp-l"/>
 
 </manifest>
