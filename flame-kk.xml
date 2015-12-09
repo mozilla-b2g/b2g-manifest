@@ -4,6 +4,7 @@
   <include name="base-kk-caf.xml"/>
 
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
+
   <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
 
   <!-- Flame specific things -->
