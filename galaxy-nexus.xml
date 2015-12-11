@@ -94,8 +94,8 @@
   <project path="device/samsung/maguro" name="android-device-maguro" remote="b2g" revision="master" />
   <project path="device/samsung/tuna" name="android-device-tuna" remote="b2g" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
 
 </manifest>
