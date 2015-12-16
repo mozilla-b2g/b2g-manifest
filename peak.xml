@@ -1,12 +1,11 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/gp-b2g/" name="gp-b2g"/>
-  <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="git://android.git.linaro.org/" name="linaro"/>
-  <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
+
+  <include name="base.xml"/>
+
+  <remote name="gp-b2g" fetch="git://github.com/gp-b2g/" />
+  <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android" />
+
   <default remote="QRD" revision="ics_master_qrd_101" sync-j="9"/>
 
   <!-- Gonk specific things and forks -->
@@ -14,14 +13,9 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
-  <project name="gaia" path="gaia" remote="b2g" revision="master"/>
-  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="refs/tags/6.1" />
-  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>

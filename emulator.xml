@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp" fetch="https://android.googlesource.com/" />
-  <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
-  <remote name="b2gmozilla" fetch="https://git.mozilla.org/b2g" />
-  <remote name="caf" fetch="git://codeaurora.org/" />
-  <remote name="mozilla" fetch="git://github.com/mozilla/" />
-  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <include name="base.xml"/>
 
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="caf"
            sync-j="4" />
-
-  <!-- Gecko and Gaia -->
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
 
   <!-- Gonk-specific things and forks -->
   <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g-4.0.4_r2.1" />
@@ -27,13 +17,10 @@
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="b2g-ics"/>
   <project path="frameworks/base" name="platform_frameworks_base" remote="b2g" revision="b2g-ics" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="hardware/libhardware_moz" name="platform_hardware_libhardware_moz" remote="b2g" revision="master"/>
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="b2g-ril_v7"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="sdk" name="android-sdk" remote="b2g" revision="b2g-ics" />

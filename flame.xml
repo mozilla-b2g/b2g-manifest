@@ -3,6 +3,7 @@
   <include name="base-caf-jb.xml"/>
 
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
+
   <default remote="caf" revision="jb_3.2" sync-j="4"/>
 
   <!-- Flame specific things -->

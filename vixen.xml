@@ -1,16 +1,9 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <remote name="aosp"
-          fetch="https://android.googlesource.com/" />
-  <remote name="b2g"
-          fetch="git://github.com/mozilla-b2g/" />
-  <remote name="apitrace"
-          fetch="git://github.com/apitrace/" />
-  <remote name="mozillaorg"
-          fetch="https://git.mozilla.org/releases" />
-  <remote name="apc-io"
-          fetch="https://github.com/apc-io" />
+  <include name="base.xml"/>
+
+  <remote name="apc-io" fetch="https://github.com/apc-io" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -21,13 +14,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
   <project path="prebuilts/qemu-kernel" name="fake-qemu-kernel" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->

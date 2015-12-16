@@ -1,29 +1,19 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <include name="base.xml"/>
 
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-5.1.0_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
   <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="master"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="valgrind" path="external/valgrind" remote="b2g" revision="fxos"/>
   <project name="vex" path="external/VEX" remote="b2g" revision="fxos"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
-  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" />
