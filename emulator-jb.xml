@@ -8,12 +8,13 @@
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <remote fetch="https://git.mozilla.org/integration" name="mozorg_int"/>
 
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="660169a3d7e034a892359e39135e8c2785a6ad6f">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="b2g-ota"/>
+  <project name="gecko-dev" path="gecko" remote="mozorg_int" revision="b2g-ota"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="b2g-ota"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="b2g-ota"/>
   

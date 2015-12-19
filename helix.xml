@@ -11,6 +11,7 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
+  <remote fetch="https://git.mozilla.org/integration" name="mozorg_int"/>
   <default revision="b2g/ics_strawberry"
            remote="caf"
            sync-j="4" />
@@ -21,7 +22,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master"/>
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="b2g-ota"/>
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master"/>
+  <project path="gecko" name="gecko-dev" remote="mozorg_int" revision="b2g-ota"/>
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master"/>
   <project path="librecovery" name="librecovery" remote="b2g" revision="master"/>

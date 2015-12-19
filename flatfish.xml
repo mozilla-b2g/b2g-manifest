@@ -6,6 +6,7 @@
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="https://github.com/flatfish-fox/" name="allwinner"/>
+  <remote fetch="https://git.mozilla.org/integration" name="mozorg_int"/>
 
   <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
 
@@ -15,7 +16,7 @@
   </project>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="b2g-ota"/>
   <project name="gaia" path="gaia" remote="mozillaorg" revision="b2g-ota"/>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="b2g-ota"/>
+  <project name="gecko-dev" path="gecko" remote="mozorg_int" revision="b2g-ota"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="b2g-ota"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="b2g-ota"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="b2g-ota"/>
