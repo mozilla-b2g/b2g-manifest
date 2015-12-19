@@ -9,6 +9,7 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
+  <remote fetch="https://git.mozilla.org/integration" name="mozorg_int"/>
   <remote name="mozillaorg"
       fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
@@ -22,7 +23,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="b2g-ota" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
+  <project path="gecko" name="gecko-dev" remote="mozorg_int" revision="b2g-ota" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />

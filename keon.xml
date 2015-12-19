@@ -7,6 +7,7 @@
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote fetch="https://git.mozilla.org/integration" name="mozorg_int"/>
   <default remote="QRD" revision="ics_master_qrd_101" sync-j="9"/>
 
   <!-- Gonk specific things and forks -->
@@ -15,7 +16,7 @@
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
   <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="b2g-ota" />
-  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master" />
+  <project name="gecko-dev" path="gecko" remote="mozorg_int" revision="master" />
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
