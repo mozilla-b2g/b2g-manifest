@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base.xml"/>
+
+  <!-- B2G specific things. -->
+  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="b2g-ota"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="b2g-ota"/>
+  <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="b2g-ota"/>
+  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
+  <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
+
+  <!-- Stock Android things -->
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2"/>
+  <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7"/>
+  <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7"/>
+  <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers"/>
+  <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
+  <project groups="darwin" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7"/>
+  <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7"/>
+  <project name="device/common" path="device/common"/>
+  <project name="device/sample" path="device/sample"/>
+  <project name="platform/abi/cpp" path="abi/cpp"/>
+  <project name="platform/bionic" path="bionic"/>
+  <project name="platform/external/aac" path="external/aac"/>
+  <project name="platform/external/bison" path="external/bison"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff"/>
+  <project name="platform/external/bzip2" path="external/bzip2"/>
+  <project name="platform/external/checkpolicy" path="external/checkpolicy"/>
+  <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
+  <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
+  <project name="platform/external/dropbear" path="external/dropbear"/>
+  <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
+  <project name="platform/external/elfutils" path="external/elfutils"/>
+  <project name="platform/external/expat" path="external/expat"/>
+  <project name="platform/external/fdlibm" path="external/fdlibm"/>
+  <project name="platform/external/flac" path="external/flac"/>
+  <project name="platform/external/freetype" path="external/freetype"/>
+  <project name="platform/external/gcc-demangle" path="external/gcc-demangle"/>
+  <project name="platform/external/genext2fs" path="external/genext2fs"/>
+  <project name="platform/external/giflib" path="external/giflib"/>
+  <project name="platform/external/gtest" path="external/gtest"/>
+  <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
+  <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
+  <project name="platform/external/icu4c" path="external/icu4c" revision="a8f744cec5125866672e131f328cc5a6e35c9173"/>
+  <project name="platform/external/iproute2" path="external/iproute2"/>
+  <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
+  <project name="platform/external/iptables" path="external/iptables"/>
+  <project name="platform/external/jack" path="external/jack"/>
+  <project name="platform/external/jhead" path="external/jhead"/>
+  <project name="platform/external/jpeg" path="external/jpeg"/>
+  <project name="platform/external/junit" path="external/junit"/>
+  <project name="platform/external/libgsm" path="external/libgsm"/>
+  <project name="platform/external/liblzf" path="external/liblzf"/>
+  <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
+  <project name="platform/external/libnl-headers" path="external/libnl-headers"/>
+  <project name="platform/external/libogg" path="external/libogg"/>
+  <project name="platform/external/libpcap" path="external/libpcap"/>
+  <project name="platform/external/libpng" path="external/libpng"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/libsepol" path="external/libsepol"/>
+  <project name="platform/external/libvpx" path="external/libvpx"/>
+  <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
+  <project name="platform/external/mksh" path="external/mksh"/>
+  <project name="platform/external/netcat" path="external/netcat"/>
+  <project name="platform/external/openssl" path="external/openssl"/>
+  <project name="platform/external/ping" path="external/ping"/>
+  <project name="platform/external/ping6" path="external/ping6"/>
+  <project name="platform/external/protobuf" path="external/protobuf"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/sepolicy" path="external/sepolicy"/>
+  <project name="platform/external/skia" path="external/skia"/>
+  <project name="platform/external/sonivox" path="external/sonivox"/>
+  <project name="platform/external/speex" path="external/speex"/>
+  <project name="platform/external/sqlite" path="external/sqlite"/>
+  <project name="platform/external/stlport" path="external/stlport"/>
+  <project name="platform/external/strace" path="external/strace"/>
+  <project name="platform/external/svox" path="external/svox"/>
+  <project name="platform/external/tagsoup" path="external/tagsoup"/>
+  <project name="platform/external/tcpdump" path="external/tcpdump"/>
+  <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
+  <project name="platform/external/tinyxml" path="external/tinyxml"/>
+  <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
+  <project name="platform/external/tremolo" path="external/tremolo"/>
+  <project name="platform/external/webp" path="external/webp"/>
+  <project name="platform/external/webrtc" path="external/webrtc"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2"/>
+  <project name="platform/external/zlib" path="external/zlib"/>
+  <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
+  <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project name="platform/libcore" path="libcore"/>
+  <project name="platform/libnativehelper" path="libnativehelper"/>
+  <project name="platform/ndk" path="ndk"/>
+  <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/system/media" path="system/media"/>
+  <project name="platform/system/netd" path="system/netd"/>
+  <project name="platform/system/security" path="system/security"/>
+  <project name="platform/system/vold" path="system/vold"/>
+
+</manifest>
