@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base-l-aosp.xml"/>
+  <default remote="caf" revision="LA.BF.1.1.1_rb1.18" sync-j="4"/>
+
+  <!-- Fairphone repos with specific changes -->
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="b2g-msm-fairphone2-3.4-lollipop" />
+  <remove-project name="platform_system_core" />
+  <project groups="pdk" name="platform_system_core" path="system/core" remote="b2g" revision="b2g-fp2-sibon" />
+  <remove-project name="platform_frameworks_av" />
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-fp2-sibon" />
+  <remove-project name="platform/external/skia" />
+  <project groups="pdk-cw-fs,qcom_msm8x26" name="external_skia" path="external/skia" remote="b2g" revision="fp2-sibon" />
+  <project groups="pdk" name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="b2g" revision="fp2-sibon" />
+  <project groups="qcom,default" name="hardware_qcom_audio" path="hardware/qcom/audio" remote="b2g" revision="fp2-sibon" />
+  <project groups="qcom,default" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="b2g" revision="fp2-sibon" />
+  <project groups="qcom,default" name="hardware_qcom_camera" path="hardware/qcom/camera" remote="b2g" revision="fp2-sibon" />
+  <project groups="qcom,default" name="hardware_qcom_gps" path="hardware/qcom/gps" remote="b2g" revision="fp2-sibon" />
+  <project groups="qcom,default" name="hardware_qcom_media" path="hardware/qcom/media" remote="b2g" revision="fp2-sibon" />
+  <project groups="qcom,default" name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="b2g" revision="fp2-sibon" />
+
+ <!-- CAF repos -->
+  <project groups="pdk" name="device/generic/common" path="device/generic/common" />
+  <project name="platform/system/qcom" path="system/qcom" />
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974" />
+  <project name="platform/vendor/qcom/msm8226" path="device/qcom/msm8226" />
+  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" />
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" />
+  <project groups="pdk-cw-fs" name="platform/external/libxml2" path="external/libxml2" />
+  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" />
+  <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" />
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" />
+
+  <!-- Device configuration -->
+  <project name="device-fairphone2" path="device/fairphone_devices/FP2" remote="b2g" revision="master" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="b2g" revision="fp2-sibon" />
+  <project name="fairphone2_kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="fp2-sibon" />
+  <project groups="pdk" name="device/generic/goldfish"  path="device/generic/goldfish" />
+  <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" />
+  <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="master" />
+</manifest>
