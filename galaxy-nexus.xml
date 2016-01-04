@@ -4,7 +4,7 @@
   <include name="base.xml"/>
 
   <default revision="refs/tags/android-4.0.4_r2.1"
-           remote="linaro"
+           remote="caf"
            sync-j="4" />
 
   <!-- Gonk-specific things and forks -->
