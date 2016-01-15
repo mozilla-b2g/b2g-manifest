@@ -3,7 +3,7 @@
 
   <include name="base-l-aosp.xml"/>
 
-  <default remote="caf" revision="refs/tags/android-5.1.0_r29" sync-j="4" />
+  <default remote="caf" revision="refs/tags/android-5.1.1_r29" sync-j="4" />
 
   <!-- Raspberry PI 2 B+ things -->
   <project path="device/raspberrypi/rpi2b" name="device-rpi2b" remote="b2g" revision="master" />
