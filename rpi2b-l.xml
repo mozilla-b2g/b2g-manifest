@@ -7,10 +7,10 @@
 
   <!-- Raspberry PI 2 B+ things -->
   <project path="device/raspberrypi/rpi2b" name="device-rpi2b" remote="b2g" revision="master" />
-  <project path="kernel/raspberrypi/rpi2b" name="rpi-linux" remote="b2g" revision="rpi2-4.2.6-vc4"/>
-  <project path="hardware/drm_gralloc" name="gralloc-rpi2b" revision="master" remote="b2g"/>
-  <project path="hardware/drm_hwcomposer" name="hwcomposer-rpi2b" revision="master" remote="b2g"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="vc4" remote="b2g"/>
-  <project path="external/drm" name="libdrm-rpi2b" revision="distrotech-libdrm" remote="b2g"/>
+  <project path="kernel/raspberrypi/rpi2b" name="rpi-linux" remote="b2g" revision="rpi2-4.2.6-vc4" />
+  <project path="hardware/drm_gralloc" name="gralloc-rpi2b" remote="b2g" revision="master" />
+  <project path="hardware/drm_hwcomposer" name="hwcomposer-rpi2b" remote="b2g" revision="master" />
+  <project path="external/mesa3d" name="external_mesa3d" remote="b2g" revision="vc4" />
+  <project path="external/drm" name="libdrm-rpi2b" remote="b2g" revision="distrotech-libdrm" />
 
 </manifest>
