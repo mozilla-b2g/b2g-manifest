@@ -23,7 +23,7 @@
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
 
   <!-- Sony platform specific things -->
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l"/>
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l-1.1_rb1.27"/>
   <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="sony-aosp-l"/>
   <project name="android_external_busybox" path="external/busybox" remote="b2g" revision="sony-aosp-l"/>
   <project name="init_sh" path="hardware/sony/init_sh" groups="device" remote="b2g" revision="sony-aosp-l"/>
