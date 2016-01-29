@@ -1,0 +1,29 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-l-aosp.xml"/>
+
+  <default remote="aosp" revision="refs/tags/android-5.1.1_r15" sync-j="4"/>
+
+  <!-- Nexus Player specific things -->
+  <project name="device-asus-fugu" path="device/asus/fugu" remote="b2g" revision="b2g-5.1.1_r15"/>
+  <project name="device_asus_fugu-kernel" path="device/asus/fugu-kernel" remote="b2g" revision="b2g-5.1.1_r15"/>
+  <project name="device-google-atv" path="device/google/atv" remote="b2g" revision="b2g-5.1.1_r15"/>
+  <project name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media"/>
+  <project name="platform/hardware/intel/bootstub" path="hardware/intel/bootstub"/>
+  <project name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov"/>
+  <project name="platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix"/>
+  <project name="platform/hardware/intel/common/libstagefrighthw" path="hardware/intel/common/libstagefrighthw"/>
+  <project name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva"/>
+  <project name="platform/hardware/intel/common/libwsbm" path="hardware/intel/common/libwsbm"/>
+  <project name="platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components"/>
+  <project name="platform/hardware/intel/common/utils" path="hardware/intel/common/utils"/>
+  <project name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core"/>
+  <project name="platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer"/>
+  <project name="platform/hardware/intel/img/libdrm" path="hardware/intel/img/libdrm"/>
+  <project name="platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers"/>
+  <project name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+
+</manifest>
