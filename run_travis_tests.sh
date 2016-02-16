@@ -1,4 +1,9 @@
 #!/bin/bash
+set -xve
+
+echo "b2g bumper steps disabled; no 2.1 config script exists"
+exit 0 
+# b2g bumper config file no longer exists for 2.1
 
 # See https://travis-ci.org/mozilla-b2g/b2g-manifest
 
@@ -17,7 +22,6 @@
 # more concerned with invalid repos/branches/tags getting
 # added to a manifest.
 
-set -xve
 B2G_MANIFEST_DIR="$(pwd)"
 cd ..
 
