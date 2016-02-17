@@ -5,6 +5,7 @@
 
   <default remote="caf" revision="refs/tags/android-5.1.1_r29" sync-j="4" />
 
+  <project name="android_external_busybox" path="external/busybox" remote="b2g" revision="cm-12.0-fbset"/>
   <!-- Raspberry PI 2 B+ things -->
   <project path="device/raspberrypi/rpi2b" name="device-rpi2b" remote="b2g" revision="master" />
   <project path="kernel/raspberrypi/rpi2b" name="rpi-linux" remote="b2g" revision="rpi2-4.2.6-vc4" />
