@@ -25,6 +25,7 @@
   <!-- Sony platform specific things -->
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="sony-aosp-l-1.1_rb1.27"/>
   <project name="device-qcom-sepolicy" path="device/qcom/sepolicy" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-common" path="device/sony/common" remote="b2g" revision="sony-aosp-l"/>
   <project name="android_external_busybox" path="external/busybox" remote="b2g" revision="sony-aosp-l"/>
   <project name="init_sh" path="hardware/sony/init_sh" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="macaddrsetup" path="hardware/sony/macaddrsetup" groups="device" remote="b2g" revision="master"/>
@@ -32,12 +33,14 @@
   <project name="thermanager" path="hardware/sony/thermanager" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="timekeep" path="hardware/sony/timekeep" groups="device" remote="b2g" revision="master"/>
   <project name="sony-camera-hal" path="hardware/qcom/camera" remote="b2g" revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.1_RB1.05.00.02.172.061" />
+  <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="b2g" revision="master" />
 
   <!-- Shinano platform specific things -->
   <project name="device-sony-shinano" path="device/sony/shinano" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-aries" path="device/sony/aries" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-leo" path="device/sony/leo" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-scorpion" path="device/sony/scorpion" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-scorpion_windy" path="device/sony/scorpion_windy" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-sirius" path="device/sony/sirius" groups="device" remote="b2g" revision="sony-aosp-l"/>
 
   <!-- Rhine platform specific things -->
