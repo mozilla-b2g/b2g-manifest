@@ -39,6 +39,7 @@
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
   <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="1.88.57.4"/>
+  <project name="nginx" path="external/nginx" remote="b2g" revision="b2g"/>
 
   <!-- Shinano specific things -->
   <project name="device-shinano" path="device/sony/leo" remote="b2g" revision="master"/>
