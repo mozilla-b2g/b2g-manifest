@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="base-caf-jb.xml"/>
+
+  <remote name="micgeri" fetch="https://github.com/micgeri/"/>
+
+  <default remote="caf" revision="jb_3.2" sync-j="4"/>
+
+  <!-- Open C FR specific things (for bluedroid conf, see bug 1196148) -->
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device/qcom/common" path="device/qcom/common" revision="b2g_jb_3.2"/>
+  <project name="device-openc" path="device/zte/zte_p821a10" remote="micgeri" revision="master"/>
+  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="zte-openc_fr-3.4-jb"/>
+  <project name="codeaurora_platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="micgeri" revision="b2g_jb_openc"/>
+  <project name="codeaurora_platform_hardware_libhardware" path="hardware/libhardware" remote="micgeri" revision="b2g_jb_openc"/>
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="micgeri" revision="openc-jb"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="jb_3.2.5_rb1.7" />
+  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="master"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="b2g_jb_3.2"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="b2g_jb_3.2"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="b2g_jb_3.2"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="b2g_jb_3.2"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="b2g_jb_3.2"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="b2g_jb_3.2"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="b2g_jb_3.2"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="jb_3.2.5_rb1.7"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="jb_3.2.5_rb1.7"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_jb_3.2"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth"/>
+  <project name="platform/system/core" path="system/core" revision="b2g_jb_3.2"/>
+  <project name="platform/system/qcom" path="system/qcom" revision="jb_3.2.5_rb1.7"/>
+  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="b2g_jb_3.2"/>
+  <project name="timekeep" path="external/timekeep" remote="b2g" revision="master"/>
+
+</manifest>
