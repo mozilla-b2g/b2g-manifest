@@ -21,6 +21,14 @@
 
  <!-- CAF repos -->
   <project groups="pdk" name="device/generic/common" path="device/generic/common" />
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" />
+  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" />
+  <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm" />
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests" />
+  <project name="platform/vendor/qcom-opensource/stm-log" path="vendor/qcom/opensource/stm-log" />
+  <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" />
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" />
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" />
   <project name="platform/system/qcom" path="system/qcom" />
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974" />
   <project name="platform/vendor/qcom/msm8226" path="device/qcom/msm8226" />
