@@ -23,8 +23,8 @@
     B2G repositories for all targets
     -->
 
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.6"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.6"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="v2.6"/>
+  <project name="gecko-b2g" path="gecko" remote="b2g" revision="b2g48_v2_6"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.6"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="v2.6"/>
   <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="v2.6"/>
