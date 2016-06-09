@@ -42,6 +42,8 @@
   <project name="device-sony-scorpion" path="device/sony/scorpion" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-scorpion_windy" path="device/sony/scorpion_windy" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-sirius" path="device/sony/sirius" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-castor" path="device/sony/castor" groups="device" remote="b2g" revision="sony-aosp-l"/>
+  <project name="device-sony-castor_windy" path="device/sony/castor_windy" groups="device" remote="b2g" revision="sony-aosp-l"/>
 
   <!-- Rhine platform specific things -->
   <project name="device-sony-rhine" path="device/sony/rhine" groups="device" remote="b2g" revision="sony-aosp-l"/>
