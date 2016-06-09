@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="sony-aosp-l.xml"/>
+
+  <remove-project name="gecko"/>
+  <project name="gecko-tablet" path="gecko" remote="b2g" revision="pine" />
+
+  <remove-project name="gaia"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="dummy" />
+
+</manifest>
