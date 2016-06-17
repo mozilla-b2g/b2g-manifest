@@ -3,6 +3,8 @@
 
   <include name="sony-aosp-l.xml"/>
 
+  <project name="platform_external_node" path="external/node" remote="b2g" revision="project-tablet" />
+
   <remove-project name="gecko"/>
   <project name="gecko-tablet" path="gecko" remote="b2g" revision="pine" />
 
