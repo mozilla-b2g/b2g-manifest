@@ -11,4 +11,7 @@
   <remove-project name="gaia"/>
   <project name="gaia" path="gaia" remote="b2g" revision="dummy" />
 
+  <remove-project name="gonk-misc"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="project-tablet" />
+
 </manifest>
