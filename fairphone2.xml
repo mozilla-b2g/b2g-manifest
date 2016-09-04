@@ -5,7 +5,7 @@
 
   <!-- Fairphone repos with specific changes -->
   <remove-project name="platform_frameworks_native"/>  
-  <project name="platform_frameworks_native" path="frameworks/native" revision="b2g-fp2" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="b2g" revision="b2g-fp2" />
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="b2g-msm-fairphone2-3.4-lollipop" />
   <remove-project name="platform_system_core" />
   <project groups="pdk" name="platform_system_core" path="system/core" remote="b2g" revision="b2g-fp2-sibon" />
