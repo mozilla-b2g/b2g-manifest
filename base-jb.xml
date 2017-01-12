@@ -37,7 +37,7 @@
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/external/aac" path="external/aac"/>
-  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid"/>
+  <project name="platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project name="platform/external/bison" path="external/bison"/>
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
