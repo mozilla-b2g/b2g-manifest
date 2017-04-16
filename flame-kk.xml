@@ -42,6 +42,7 @@
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="b2g_kk_3.5"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="LNX.LF.3.5.2.1_1"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="b2g_kk_3.5"/>
 
 </manifest>
