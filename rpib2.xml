@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="base-l-aosp.xml"/>
+
+  <default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4" />
+
+  <!-- Raspberry PI B+ 2 things -->
+  <project path="device/raspberrypi/rpib2" name="device-rpib2" remote="b2g" revision="master" />
+  <project path="kernel/raspberrypi/rpib2" name="rpi-linux" remote="b2g" revision="rpi2-4.2.6-vc4"/>
+  <project path="hardware/drm_gralloc" name="gralloc-rpib2" revision="master" remote="b2g"/>
+  <project path="hardware/drm_hwcomposer" name="hwcomposer-rpib2" revision="master" remote="b2g"/>
+  <project path="external/mesa3d" name="mesa-rpib2" revision="vc4" remote="b2g"/>
+  <project path="external/drm" name="libdrm-rpib2" revision="distrotech-libdrm" remote="b2g"/>
+
+</manifest>
